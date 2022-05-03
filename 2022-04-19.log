@@ -1,0 +1,2095 @@
+11:41:34:info: [App] Started App 
+11:41:34:info: [FsHelper] Starting Sync of File System 
+11:41:34:info: [StartupHelper] Running System Check 
+11:41:34:debug: [StartupHelper] HWClock and System Date are in sync 
+11:41:34:info: [App] System Check Passed 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3870108 
+11:41:35:debug: [DevicesService] Balanced CheckIns: {"3137442849":{"interval":3600,"delta":0},"3137496336":{"interval":3600,"delta":1200},"3137609865":{"interval":3600,"delta":2400},"3389007590":{"interval":21600,"delta":0},"3390046259":{"interval":21600,"delta":10800}} 
+11:41:35:debug: [UpdateService] Files: ["app.bundle.js","app.bundle.md5","coordinator.14.1.bin","coordinator.14.1.md5","coordinator.14.2.bin","coordinator.14.2.md5","mcu.8.2.bin","mcu.8.2.md5","mcu.8.3.bin","mcu.8.3.md5"] 
+11:41:35:debug: [UpdateService] Files: ["app.bundle.js","app.bundle.md5","coordinator.14.1.bin","coordinator.14.1.md5","coordinator.14.2.bin","coordinator.14.2.md5","mcu.8.2.bin","mcu.8.2.md5","mcu.8.3.bin","mcu.8.3.md5"] 
+11:41:35:debug: [UpdateService] Files: ["app.bundle.js","app.bundle.md5","coordinator.14.1.bin","coordinator.14.1.md5","coordinator.14.2.bin","coordinator.14.2.md5","mcu.8.2.bin","mcu.8.2.md5","mcu.8.3.bin","mcu.8.3.md5"] 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_resetCount = 37 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3804572 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 1707420 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3804572 
+11:41:35:info: [NetworkService] Starting 
+11:41:35:info: [NetworkService] ETH Changed: {"state":0,"address":"","netmask":"","family":"","mac":"","gateway":"","isDefault":false} 
+11:41:35:info: [NetworkService] WLAN Changed: {"state":0,"address":"","netmask":"","family":"","mac":"","gateway":"","isDefault":false,"connectedSSID":""} 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3804564 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3804548 
+11:41:35:debug: [NetworkService] Spawning IP Monitor 
+11:41:35:debug: [NetworkService] Finished Spawning IP Monitor 
+11:41:35:info: [CloudConnect] UNKNOWN 
+11:41:35:info: [CellularConnect] UNKNOWN 
+11:41:35:debug: [CellularConnect] OnPortsReady: false 
+11:41:35:info: [CellularConnect] DISCONNECTED 
+11:41:35:info: [CloudService] Starting 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3804420 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3280132 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3279876 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2231300 
+11:41:35:info: [CloudService] Heartbeats Stopped 
+11:41:35:info: [CloudService] Sync Timer Stopped 
+11:41:35:info: [CloudConnect] CONNECTING 
+11:41:35:info: [MCUService] Starting MCUService 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2228228 
+11:41:35:info: [CoordinatorService] Starting CoordinatorService 
+11:41:35:info: [BLEService] Starting BLEService 
+11:41:35:info: [CloudConnect] DISCONNECTED 
+11:41:35:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:41:35:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_telitResetCount = 49 
+11:41:35:info: [App] Pausing Cellular Connection 
+11:41:35:error: [CellularConnect] Error on /dev/ttyACM3: Error: Port is not open 
+11:41:35:error: [CellularConnect] Error on /dev/ttyACM0: Error: Port is not open 
+11:41:35:info: [MCUConnectService] Connected to MCU 
+11:41:35:info: [CoordinatorConnect] Connected to Coordinator 
+11:41:35:info: [BLEConnect] Connected to BLE 
+11:41:35:error: [NetworkService] exec stderr: ifdown: interface wlan0 not configured
+ 
+11:41:35:error: [NetworkService] cmd: ifdown wlan0 
+11:41:35:debug: [CellularConnect] OnPortsReady: false 
+11:41:35:info: [CellularConnect] Connected to /dev/ttyACM0 
+11:41:35:debug: [CellularConnect] OnPortsReady: true 
+11:41:36:info: [CellularConnect] Running Health Check 
+11:41:36:info: [CellularConnect] Connected to /dev/ttyACM3 
+11:41:36:debug: [CoordinatorConnect] TX -> V1RFInfoMessage.REQUEST_COORDINATOR_INFO - ID: 2 TXID: null
+      checkinInterval: 10800
+      nextCheckIn:     undefined
+      messageFlags:    undefined
+     
+11:41:36:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 2 
+11:41:36:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 3 
+11:41:36:debug: [CellularConnect] AT Commands Ok: true 
+11:41:36:debug: [UpdateService] Checking for available MCU Firmware Update 
+11:41:36:debug: [UpdateService] Checking for available Firmware Update (current version: 8.3) 
+11:41:36:debug: [UpdateService] Target Version:  
+11:41:36:info: [App] Power State Changed: POWER ON 
+11:41:36:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 1 Flags: 543615 
+11:41:36:debug: [CellularConnect] SMS Ok: true 
+11:41:36:debug: [CellularConnect] SIM Card Ok: true 
+11:41:36:debug: [CellularConnect] APN Ok: true 
+11:41:36:debug: [CellularConnect] Socket Config Ok: true 
+11:41:36:warn: [CellularConnect] Network Not Active 
+11:41:36:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:41:36:debug: [CoordinatorService] Turning off buffer because of CoordinatorDeviceMessageType.DEVICE_POWER_ON - ID: 1 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:41:36:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_POWER_ON - ID: 1 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:41:36:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:41:36:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:41:36:debug: [UpdateService] Target Version:  
+11:41:36:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 2 
+11:41:36:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2231300 
+11:41:36:debug: [CellularConnect] Signal: 24 BER: 4 
+11:41:36:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:41:36:info: [CellularConnect] CONNECTING 
+11:41:36:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:41:36:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 3 
+11:41:36:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 1 Flags: 547711 
+11:41:37:debug: [CellularConnect] Socket Status: 0 
+11:41:37:debug: [CellularConnect] Data Transferred : (0/0) 
+11:41:38:info: [App] Restarting Telit 
+11:41:38:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 4 
+11:41:38:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 2 Flags: 547711 
+11:41:39:debug: [CellularConnect] OnPortsReady: false 
+11:41:39:warn: [CellularConnect] Disconnected from /dev/ttyACM0 (close): undefined 
+11:41:39:debug: [CellularConnect] OnPortsReady: false 
+11:41:39:warn: [CellularConnect] Disconnected from /dev/ttyACM3 (close): undefined 
+11:42:05:info: [CloudConnect] CONNECTING 
+11:42:05:info: [CloudConnect] DISCONNECTED 
+11:42:05:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:42:05:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 5 
+11:42:05:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 3 Flags: 531263 
+11:42:08:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 6 
+11:42:08:info: [App] Finished Restarting Telit 
+11:42:08:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 4 Flags: 531263 
+11:42:11:info: [App] Resuming Cellular Connection 
+11:42:11:warn: [CellularConnect] Called .connect() before /dev/ ports are available 
+11:42:19:debug: [CellularConnect] OnPortsReady: false 
+11:42:19:info: [CellularConnect] Connected to /dev/ttyACM3 
+11:42:19:debug: [CellularConnect] OnPortsReady: true 
+11:42:19:info: [CellularConnect] Running Health Check 
+11:42:19:info: [CellularConnect] Connected to /dev/ttyACM0 
+11:42:19:debug: [CellularConnect] AT Commands Ok: true 
+11:42:19:debug: [CellularConnect] SMS Ok: true 
+11:42:19:debug: [CellularConnect] SIM Card Ok: true 
+11:42:19:debug: [CellularConnect] APN Ok: true 
+11:42:19:debug: [CellularConnect] Socket Config Ok: true 
+11:42:19:debug: [CellularConnect] Network Activated: true  Registration: 0 Operator: 0 
+11:42:19:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2228228 
+11:42:19:debug: [CellularConnect] Signal: 31 BER: 7 
+11:42:19:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:42:19:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:42:19:error: [CellularConnect] Error trying to open data connection 
+11:42:19:debug: [CellularConnect] Socket Status: 0 
+11:42:19:debug: [CellularConnect] Data Transferred : (0/0) 
+11:42:19:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 7 
+11:42:19:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 5 Flags: 547711 
+11:42:35:info: [CloudConnect] CONNECTING 
+11:42:35:info: [CloudConnect] DISCONNECTED 
+11:42:35:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:42:35:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 8 
+11:42:35:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 6 Flags: 547711 
+11:43:05:info: [CloudConnect] CONNECTING 
+11:43:05:info: [CloudConnect] DISCONNECTED 
+11:43:05:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:43:05:debug: [AccountabilityBooster] Starting Check: BLEService 
+11:43:05:debug: [BLEConnect] SETTING INTO CMD MODE 
+11:43:05:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 9 
+11:43:05:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 7 Flags: 547711 
+11:43:06:debug: [BLEConnect] ENTERED CMD MODE 
+11:43:06:debug: [BLEConnect] GOT DEVICE INFOGW301-DA102382 C0 
+11:43:07:debug: [BLEConnect] EXITED CMD MODE 
+11:43:07:debug: [AccountabilityBooster] Finished Check: BLEService 
+11:43:07:debug: [AccountabilityBooster] Starting Check: CloudService 
+11:43:07:debug: [AccountabilityBooster] Finished Check: CloudService 
+11:43:07:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+11:43:07:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 4 
+11:43:07:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:43:07:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 1 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:43:07:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:43:07:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:43:07:debug: [UpdateService] Target Version:  
+11:43:07:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+11:43:07:debug: [AccountabilityBooster] Starting Check: DataService 
+11:43:07:debug: [AccountabilityBooster] Finished Check: DataService 
+11:43:07:debug: [AccountabilityBooster] Starting Check: DevicesService 
+11:43:07:debug: [AccountabilityBooster] Finished Check: DevicesService 
+11:43:07:debug: [AccountabilityBooster] Starting Check: InfoService 
+11:43:07:debug: [AccountabilityBooster] Finished Check: InfoService 
+11:43:07:debug: [AccountabilityBooster] Starting Check: UpdateService 
+11:43:07:debug: [AccountabilityBooster] Finished Check: UpdateService 
+11:43:07:debug: [AccountabilityBooster] Starting Check: MCUService 
+11:43:07:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 10 
+11:43:07:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 8 Flags: 547711 
+11:43:07:debug: [AccountabilityBooster] Finished Check: MCUService 
+11:43:07:debug: [MCUConnectService] Sending: CMDMessage.FEED_THE_DOG - ID: 11 
+11:43:19:info: [CellularConnect] Running Health Check 
+11:43:19:debug: [CellularConnect] AT Commands Ok: true 
+11:43:19:debug: [CellularConnect] SMS Ok: true 
+11:43:19:debug: [CellularConnect] SIM Card Ok: true 
+11:43:19:debug: [CellularConnect] APN Ok: true 
+11:43:19:debug: [CellularConnect] Socket Config Ok: true 
+11:43:19:warn: [CellularConnect] Network Not Active 
+11:43:19:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 2 
+11:43:19:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2230276 
+11:43:19:debug: [CellularConnect] Signal: 24 BER: 5 
+11:43:19:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:43:19:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:43:19:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 12 
+11:43:19:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 9 Flags: 547711 
+11:43:19:error: [CellularConnect] Error trying to open data connection 
+11:43:19:debug: [CellularConnect] Socket Status: 0 
+11:43:19:debug: [CellularConnect] Data Transferred : (0/0) 
+11:43:35:info: [CloudConnect] CONNECTING 
+11:43:35:info: [CloudConnect] DISCONNECTED 
+11:43:35:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:43:35:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 13 
+11:43:35:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 10 Flags: 547711 
+11:43:36:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:43:36:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 2 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:43:36:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:43:36:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:43:36:debug: [UpdateService] Target Version:  
+11:44:05:info: [CloudConnect] CONNECTING 
+11:44:05:info: [CloudConnect] DISCONNECTED 
+11:44:05:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:44:05:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 14 
+11:44:05:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 11 Flags: 547711 
+11:44:19:info: [CellularConnect] Running Health Check 
+11:44:19:debug: [CellularConnect] AT Commands Ok: true 
+11:44:19:debug: [CellularConnect] SMS Ok: true 
+11:44:19:debug: [CellularConnect] SIM Card Ok: true 
+11:44:19:debug: [CellularConnect] APN Ok: true 
+11:44:19:debug: [CellularConnect] Socket Config Ok: true 
+11:44:19:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 2 
+11:44:19:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2231300 
+11:44:19:debug: [CellularConnect] Signal: 25 BER: 4 
+11:44:19:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:44:19:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:44:19:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 15 
+11:44:19:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 12 Flags: 547711 
+11:44:23:debug: [CellularConnect] Socket Status: 0 
+11:44:23:debug: [CellularConnect] Data Transferred : (0/0) 
+11:44:35:info: [CloudConnect] CONNECTING 
+11:44:35:info: [CloudConnect] DISCONNECTED 
+11:44:35:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:44:35:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 16 
+11:44:35:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 13 Flags: 547711 
+11:45:05:info: [CloudConnect] CONNECTING 
+11:45:05:info: [CloudConnect] DISCONNECTED 
+11:45:05:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:45:05:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 17 
+11:45:05:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 14 Flags: 547711 
+11:45:19:info: [CellularConnect] Running Health Check 
+11:45:19:debug: [CellularConnect] AT Commands Ok: true 
+11:45:19:debug: [CellularConnect] SMS Ok: true 
+11:45:19:debug: [CellularConnect] SIM Card Ok: true 
+11:45:19:debug: [CellularConnect] APN Ok: true 
+11:45:19:debug: [CellularConnect] Socket Config Ok: true 
+11:45:19:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 2 
+11:45:19:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2230276 
+11:45:19:debug: [CellularConnect] Signal: 24 BER: 6 
+11:45:19:info: [CellularConnect] CONNECTED 
+11:45:19:info: [CloudService] Heartbeats Started (Delay: 133.697s) 
+11:45:19:info: [CloudService] Sync Timer Started (Delay: 8.71605m) 
+11:45:19:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2230532 
+11:45:19:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 2  ReqID: undefined 
+11:45:19:debug: [CellularConnect] Socket Status: 1 
+11:45:19:debug: [CellularConnect] Data Transferred : (57/0) 
+11:45:19:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 18 
+11:45:19:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 15 Flags: 547711 
+11:45:19:debug: [CellularConnect] RX GatewayMessage.ACK - ID: 165  ReqID: 2 
+11:45:19:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_lastReceivedMessageAt = Tue Apr 19 2022 11:45:19 GMT-0400 (EDT) 
+11:45:19:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3279108 
+11:45:19:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 19 
+11:45:20:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 16 Flags: 547711 
+11:45:20:debug: [CellularConnect] TX GatewayMessage.REQUEST_TIME - ID: 3  ReqID: undefined 
+11:45:20:debug: [CellularConnect] TX GatewayMessage.ACK - ID: 4  ReqID: 166 
+11:45:20:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3148036 
+11:45:20:debug: [CellularConnect] RX GatewayMessage.FOCUS_STOP - ID: 166  ReqID: 0 
+11:45:20:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_lastReceivedMessageAt = Tue Apr 19 2022 11:45:20 GMT-0400 (EDT) 
+11:45:20:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 20 
+11:45:20:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 17 Flags: 547711 
+11:45:21:debug: [CellularConnect] RX TimeMessage.CURRENT_TIME - ID: 178  ReqID: 3 Tue Apr 19 2022 11:46:07 GMT-0400 (EDT) 
+11:45:21:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_lastReceivedMessageAt = Tue Apr 19 2022 11:45:21 GMT-0400 (EDT) 
+11:45:21:info: [CloudService] Setting Current Time res.timestampTue Apr 19 2022 11:46:07 GMT-0400 (EDT)  system date: Tue Apr 19 2022 11:45:21 GMT-0400 (EDT) 
+11:46:21:info: [CloudConnect] CONNECTING 
+11:46:21:info: [CloudConnect] DISCONNECTED 
+11:46:21:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:46:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 21 
+11:46:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 18 Flags: 547711 
+11:46:22:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:46:22:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 3 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:46:22:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:46:22:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:46:22:debug: [UpdateService] Target Version:  
+11:46:44:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 19 Flags: 547711 
+11:46:51:info: [CloudConnect] CONNECTING 
+11:46:51:info: [CloudConnect] DISCONNECTED 
+11:46:51:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:46:51:debug: [AccountabilityBooster] Starting Check: BLEService 
+11:46:51:debug: [AccountabilityBooster] Finished Check: BLEService 
+11:46:51:debug: [AccountabilityBooster] Starting Check: CloudService 
+11:46:51:debug: [AccountabilityBooster] Finished Check: CloudService 
+11:46:51:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+11:46:51:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 5 
+11:46:51:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:46:51:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 4 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:46:51:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:46:51:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:46:51:debug: [UpdateService] Target Version:  
+11:46:51:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+11:46:51:debug: [AccountabilityBooster] Starting Check: DataService 
+11:46:51:debug: [AccountabilityBooster] Finished Check: DataService 
+11:46:51:debug: [AccountabilityBooster] Starting Check: DevicesService 
+11:46:51:debug: [AccountabilityBooster] Finished Check: DevicesService 
+11:46:51:debug: [AccountabilityBooster] Starting Check: InfoService 
+11:46:51:debug: [AccountabilityBooster] Finished Check: InfoService 
+11:46:51:debug: [AccountabilityBooster] Starting Check: UpdateService 
+11:46:51:debug: [AccountabilityBooster] Finished Check: UpdateService 
+11:46:51:debug: [AccountabilityBooster] Starting Check: MCUService 
+11:46:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 22 
+11:46:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 20 Flags: 547711 
+11:46:51:debug: [AccountabilityBooster] Finished Check: MCUService 
+11:46:51:debug: [MCUConnectService] Sending: CMDMessage.FEED_THE_DOG - ID: 23 
+11:46:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 24 
+11:46:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 21 Flags: 547711 
+11:47:04:info: [CellularConnect] Running Health Check 
+11:47:04:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 2 
+11:47:04:debug: [CellularConnect] Signal: 25 BER: 5 
+11:47:04:debug: [CellularConnect] Socket Status: 1 
+11:47:04:debug: [CellularConnect] Data Transferred : (139/129) 
+11:47:21:info: [CloudConnect] CONNECTING 
+11:47:21:info: [CloudConnect] DISCONNECTED 
+11:47:21:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:47:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 25 
+11:47:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 22 Flags: 547711 
+11:47:51:info: [CloudConnect] CONNECTING 
+11:47:51:info: [CloudConnect] DISCONNECTED 
+11:47:51:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:47:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 26 
+11:47:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 23 Flags: 547711 
+11:48:03:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB026510 -> 0xFFFFFFFF 
+11:48:03:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB026510 -> 0xFFFFFFFF 
+11:48:03:debug: [CoordinatorService] Created Read for BB026510 - 5 Tue Apr 19 2022 11:48:03 GMT-0400 (EDT) 
+11:48:03:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB026510 
+11:48:03:debug: [DataService] Saved read for BB026510 
+11:48:03:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 27 
+11:48:03:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB026510 (checkInInterval: 1800 nextCheckIn: 958) 
+11:48:03:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 24 Flags: 547711 
+11:48:04:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+11:48:04:info: [CellularConnect] Running Health Check 
+11:48:04:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 2 
+11:48:04:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3145988 
+11:48:04:debug: [CellularConnect] Signal: 24 BER: 7 
+11:48:04:debug: [CellularConnect] Socket Status: 1 
+11:48:04:debug: [CellularConnect] Data Transferred : (139/129) 
+11:48:04:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 28 
+11:48:04:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 25 Flags: 547711 
+11:48:18:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 5  ReqID: undefined 
+11:48:18:debug: [CellularConnect] RX GatewayMessage.INFO - ID: 5  ReqID: 0 
+11:48:18:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_lastReceivedMessageAt = Tue Apr 19 2022 11:48:18 GMT-0400 (EDT) 
+11:48:21:info: [CloudConnect] CONNECTING 
+11:48:21:info: [CloudConnect] DISCONNECTED 
+11:48:21:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:48:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 29 
+11:48:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 26 Flags: 547711 
+11:48:22:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:48:22:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 9 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:48:22:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:48:22:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:48:22:debug: [UpdateService] Target Version:  
+11:48:38:warn: [CellularConnect] Retrying GatewayMessage.INFO - ID: 5  ReqID: undefined 
+11:48:38:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 5  ReqID: undefined 
+11:48:38:debug: [CellularConnect] RX GatewayMessage.INFO - ID: 5  ReqID: 0 
+11:48:38:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_lastReceivedMessageAt = Tue Apr 19 2022 11:48:38 GMT-0400 (EDT) 
+11:48:51:info: [CloudConnect] CONNECTING 
+11:48:51:info: [CloudConnect] DISCONNECTED 
+11:48:51:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:48:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 30 
+11:48:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 27 Flags: 547711 
+11:48:58:warn: [CellularConnect] Retrying GatewayMessage.INFO - ID: 5  ReqID: undefined 
+11:48:58:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 5  ReqID: undefined 
+11:48:58:debug: [CellularConnect] RX GatewayMessage.INFO - ID: 5  ReqID: 0 
+11:48:58:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_lastReceivedMessageAt = Tue Apr 19 2022 11:48:58 GMT-0400 (EDT) 
+11:49:04:info: [CellularConnect] Running Health Check 
+11:49:04:debug: [CellularConnect] Network Activated: true  Registration: 0 Operator: 0 
+11:49:04:debug: [CellularConnect] Signal: 31 BER: 7 
+11:49:04:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:49:04:info: [CellularConnect] CONNECTING 
+11:49:04:info: [CloudService] Heartbeats Stopped 
+11:49:04:info: [CloudService] Sync Timer Stopped 
+11:49:04:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3145732 
+11:49:04:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2097156 
+11:49:04:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:49:04:error: [CellularConnect] Error trying to open data connection 
+11:49:04:debug: [CellularConnect] Socket Status: 0 
+11:49:04:debug: [CellularConnect] Data Transferred : (0/0) 
+11:49:04:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 31 
+11:49:04:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 28 Flags: 547711 
+11:49:21:info: [CloudConnect] CONNECTING 
+11:49:21:info: [CloudConnect] DISCONNECTED 
+11:49:21:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:49:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 32 
+11:49:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 29 Flags: 547711 
+11:49:51:info: [CloudConnect] CONNECTING 
+11:49:51:info: [CloudConnect] DISCONNECTED 
+11:49:51:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:49:51:debug: [AccountabilityBooster] Starting Check: BLEService 
+11:49:51:debug: [AccountabilityBooster] Finished Check: BLEService 
+11:49:51:debug: [AccountabilityBooster] Starting Check: CloudService 
+11:49:51:debug: [AccountabilityBooster] Finished Check: CloudService 
+11:49:51:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+11:49:51:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 7 
+11:49:51:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:49:51:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 10 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:49:51:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:49:51:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:49:51:debug: [UpdateService] Target Version:  
+11:49:51:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+11:49:51:debug: [AccountabilityBooster] Starting Check: DataService 
+11:49:51:debug: [AccountabilityBooster] Finished Check: DataService 
+11:49:51:debug: [AccountabilityBooster] Starting Check: DevicesService 
+11:49:51:debug: [AccountabilityBooster] Finished Check: DevicesService 
+11:49:51:debug: [AccountabilityBooster] Starting Check: InfoService 
+11:49:51:debug: [AccountabilityBooster] Finished Check: InfoService 
+11:49:51:debug: [AccountabilityBooster] Starting Check: UpdateService 
+11:49:51:debug: [AccountabilityBooster] Finished Check: UpdateService 
+11:49:51:debug: [AccountabilityBooster] Starting Check: MCUService 
+11:49:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 33 
+11:49:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 34 
+11:49:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 30 Flags: 547711 
+11:49:51:debug: [AccountabilityBooster] Finished Check: MCUService 
+11:49:51:debug: [MCUConnectService] Sending: CMDMessage.FEED_THE_DOG - ID: 35 
+11:49:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 31 Flags: 547711 
+11:50:04:info: [CellularConnect] Running Health Check 
+11:50:04:debug: [CellularConnect] AT Commands Ok: true 
+11:50:04:debug: [CellularConnect] SMS Ok: true 
+11:50:04:debug: [CellularConnect] SIM Card Ok: true 
+11:50:04:debug: [CellularConnect] APN Ok: true 
+11:50:04:debug: [CellularConnect] Socket Config Ok: true 
+11:50:04:debug: [CellularConnect] Network Activated: true  Registration: 0 Operator: 0 
+11:50:04:debug: [CellularConnect] Signal: 31 BER: 7 
+11:50:04:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:50:04:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:50:04:error: [CellularConnect] Error trying to open data connection 
+11:50:04:debug: [CellularConnect] Socket Status: 0 
+11:50:04:debug: [CellularConnect] Data Transferred : (0/0) 
+11:50:21:info: [CloudConnect] CONNECTING 
+11:50:21:info: [CloudConnect] DISCONNECTED 
+11:50:21:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:50:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 36 
+11:50:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 32 Flags: 547711 
+11:50:22:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:50:22:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 11 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:50:22:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:50:22:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:50:22:debug: [UpdateService] Target Version:  
+11:50:51:info: [CloudConnect] CONNECTING 
+11:50:51:info: [CloudConnect] DISCONNECTED 
+11:50:51:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:50:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 37 
+11:50:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 33 Flags: 547711 
+11:51:04:info: [CellularConnect] Running Health Check 
+11:51:04:debug: [CellularConnect] AT Commands Ok: true 
+11:51:04:debug: [CellularConnect] SMS Ok: true 
+11:51:04:debug: [CellularConnect] SIM Card Ok: true 
+11:51:04:debug: [CellularConnect] APN Ok: true 
+11:51:04:debug: [CellularConnect] Socket Config Ok: true 
+11:51:04:debug: [CellularConnect] Network Activated: true  Registration: 0 Operator: 0 
+11:51:04:debug: [CellularConnect] Signal: 31 BER: 7 
+11:51:04:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:51:04:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:51:04:error: [CellularConnect] Error trying to open data connection 
+11:51:04:debug: [CellularConnect] Socket Status: 0 
+11:51:04:debug: [CellularConnect] Data Transferred : (0/0) 
+11:51:21:info: [CloudConnect] CONNECTING 
+11:51:21:info: [CloudConnect] DISCONNECTED 
+11:51:21:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:51:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 38 
+11:51:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 34 Flags: 547711 
+11:51:43:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 35 Flags: 547711 
+11:51:51:info: [CloudConnect] CONNECTING 
+11:51:51:info: [CloudConnect] DISCONNECTED 
+11:51:51:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:51:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 39 
+11:51:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 36 Flags: 547711 
+11:52:04:info: [CellularConnect] Running Health Check 
+11:52:04:debug: [CellularConnect] AT Commands Ok: true 
+11:52:04:debug: [CellularConnect] SMS Ok: true 
+11:52:04:debug: [CellularConnect] SIM Card Ok: true 
+11:52:04:debug: [CellularConnect] APN Ok: true 
+11:52:04:debug: [CellularConnect] Socket Config Ok: true 
+11:52:04:debug: [CellularConnect] Network Activated: true  Registration: 0 Operator: 0 
+11:52:04:debug: [CellularConnect] Signal: 31 BER: 7 
+11:52:04:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:52:04:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:52:04:error: [CellularConnect] Error trying to open data connection 
+11:52:04:debug: [CellularConnect] Socket Status: 0 
+11:52:04:debug: [CellularConnect] Data Transferred : (0/0) 
+11:52:21:info: [CloudConnect] CONNECTING 
+11:52:21:info: [CloudConnect] DISCONNECTED 
+11:52:21:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:52:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 40 
+11:52:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 37 Flags: 547711 
+11:52:22:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:52:22:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 12 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:52:22:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:52:22:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:52:22:debug: [UpdateService] Target Version:  
+11:52:51:info: [CloudConnect] CONNECTING 
+11:52:51:info: [CloudConnect] DISCONNECTED 
+11:52:51:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:52:51:debug: [AccountabilityBooster] Starting Check: BLEService 
+11:52:51:debug: [AccountabilityBooster] Finished Check: BLEService 
+11:52:51:debug: [AccountabilityBooster] Starting Check: CloudService 
+11:52:51:debug: [AccountabilityBooster] Finished Check: CloudService 
+11:52:51:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+11:52:51:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 8 
+11:52:51:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:52:51:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 13 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:52:51:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:52:51:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:52:51:debug: [UpdateService] Target Version:  
+11:52:51:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+11:52:51:debug: [AccountabilityBooster] Starting Check: DataService 
+11:52:51:debug: [AccountabilityBooster] Finished Check: DataService 
+11:52:51:debug: [AccountabilityBooster] Starting Check: DevicesService 
+11:52:51:debug: [AccountabilityBooster] Finished Check: DevicesService 
+11:52:51:debug: [AccountabilityBooster] Starting Check: InfoService 
+11:52:51:debug: [AccountabilityBooster] Finished Check: InfoService 
+11:52:51:debug: [AccountabilityBooster] Starting Check: UpdateService 
+11:52:51:debug: [AccountabilityBooster] Finished Check: UpdateService 
+11:52:51:debug: [AccountabilityBooster] Starting Check: MCUService 
+11:52:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 41 
+11:52:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 38 Flags: 547711 
+11:52:51:debug: [AccountabilityBooster] Finished Check: MCUService 
+11:52:51:debug: [MCUConnectService] Sending: CMDMessage.FEED_THE_DOG - ID: 42 
+11:52:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 43 
+11:52:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 39 Flags: 547711 
+11:53:04:info: [CellularConnect] Running Health Check 
+11:53:04:debug: [CellularConnect] AT Commands Ok: true 
+11:53:04:debug: [CellularConnect] SMS Ok: true 
+11:53:04:debug: [CellularConnect] SIM Card Ok: true 
+11:53:04:debug: [CellularConnect] APN Ok: true 
+11:53:04:debug: [CellularConnect] Socket Config Ok: true 
+11:53:04:debug: [CellularConnect] Network Activated: true  Registration: 0 Operator: 0 
+11:53:04:debug: [CellularConnect] Signal: 31 BER: 7 
+11:53:04:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:53:04:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:53:04:error: [CellularConnect] Error trying to open data connection 
+11:53:04:debug: [CellularConnect] Socket Status: 0 
+11:53:04:debug: [CellularConnect] Data Transferred : (0/0) 
+11:53:21:info: [CloudConnect] CONNECTING 
+11:53:21:info: [CloudConnect] DISCONNECTED 
+11:53:21:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:53:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 44 
+11:53:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 40 Flags: 547711 
+11:53:51:info: [CloudConnect] CONNECTING 
+11:53:51:info: [CloudConnect] DISCONNECTED 
+11:53:51:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:53:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 45 
+11:53:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 41 Flags: 547711 
+11:54:04:info: [CellularConnect] Running Health Check 
+11:54:04:debug: [CellularConnect] AT Commands Ok: true 
+11:54:04:debug: [CellularConnect] SMS Ok: true 
+11:54:04:debug: [CellularConnect] SIM Card Ok: true 
+11:54:04:debug: [CellularConnect] APN Ok: true 
+11:54:04:debug: [CellularConnect] Socket Config Ok: true 
+11:54:04:debug: [CellularConnect] Network Activated: true  Registration: 0 Operator: 0 
+11:54:04:debug: [CellularConnect] Signal: 31 BER: 7 
+11:54:04:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:54:04:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:54:05:error: [CellularConnect] Error trying to open data connection 
+11:54:05:debug: [CellularConnect] Socket Status: 0 
+11:54:05:debug: [CellularConnect] Data Transferred : (0/0) 
+11:54:21:info: [CloudConnect] CONNECTING 
+11:54:21:info: [CloudConnect] DISCONNECTED 
+11:54:21:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:54:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 46 
+11:54:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 42 Flags: 547711 
+11:54:22:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:54:22:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 14 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:54:22:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:54:22:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:54:22:debug: [UpdateService] Target Version:  
+11:54:51:info: [CloudConnect] CONNECTING 
+11:54:51:info: [CloudConnect] DISCONNECTED 
+11:54:51:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:54:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 47 
+11:54:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 43 Flags: 547711 
+11:55:04:info: [CellularConnect] Running Health Check 
+11:55:04:debug: [CellularConnect] AT Commands Ok: true 
+11:55:04:debug: [CellularConnect] SMS Ok: true 
+11:55:04:debug: [CellularConnect] SIM Card Ok: true 
+11:55:04:debug: [CellularConnect] APN Ok: true 
+11:55:04:debug: [CellularConnect] Socket Config Ok: true 
+11:55:04:debug: [CellularConnect] Network Activated: true  Registration: 0 Operator: 0 
+11:55:04:debug: [CellularConnect] Signal: 31 BER: 7 
+11:55:04:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:55:04:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:55:04:error: [CellularConnect] Error trying to open data connection 
+11:55:04:debug: [CellularConnect] Socket Status: 0 
+11:55:04:debug: [CellularConnect] Data Transferred : (0/0) 
+11:55:21:info: [CloudConnect] CONNECTING 
+11:55:21:info: [CloudConnect] DISCONNECTED 
+11:55:21:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:55:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 48 
+11:55:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 44 Flags: 547711 
+11:55:51:info: [CloudConnect] CONNECTING 
+11:55:51:info: [CloudConnect] DISCONNECTED 
+11:55:51:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:55:51:debug: [AccountabilityBooster] Starting Check: BLEService 
+11:55:51:debug: [AccountabilityBooster] Finished Check: BLEService 
+11:55:51:debug: [AccountabilityBooster] Starting Check: CloudService 
+11:55:51:debug: [AccountabilityBooster] Finished Check: CloudService 
+11:55:51:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+11:55:51:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 9 
+11:55:51:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:55:51:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 15 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:55:51:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:55:51:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:55:51:debug: [UpdateService] Target Version:  
+11:55:51:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+11:55:51:debug: [AccountabilityBooster] Starting Check: DataService 
+11:55:51:debug: [AccountabilityBooster] Finished Check: DataService 
+11:55:51:debug: [AccountabilityBooster] Starting Check: DevicesService 
+11:55:51:debug: [AccountabilityBooster] Finished Check: DevicesService 
+11:55:51:debug: [AccountabilityBooster] Starting Check: InfoService 
+11:55:51:debug: [AccountabilityBooster] Finished Check: InfoService 
+11:55:51:debug: [AccountabilityBooster] Starting Check: UpdateService 
+11:55:51:debug: [AccountabilityBooster] Finished Check: UpdateService 
+11:55:51:debug: [AccountabilityBooster] Starting Check: MCUService 
+11:55:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 49 
+11:55:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 45 Flags: 547711 
+11:55:51:debug: [AccountabilityBooster] Finished Check: MCUService 
+11:55:51:debug: [MCUConnectService] Sending: CMDMessage.FEED_THE_DOG - ID: 50 
+11:55:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 51 
+11:55:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 46 Flags: 547711 
+11:56:04:info: [CellularConnect] Running Health Check 
+11:56:04:debug: [CellularConnect] AT Commands Ok: true 
+11:56:04:debug: [CellularConnect] SMS Ok: true 
+11:56:04:debug: [CellularConnect] SIM Card Ok: true 
+11:56:04:debug: [CellularConnect] APN Ok: true 
+11:56:04:debug: [CellularConnect] Socket Config Ok: true 
+11:56:04:debug: [CellularConnect] Network Activated: true  Registration: 0 Operator: 0 
+11:56:04:debug: [CellularConnect] Signal: 31 BER: 7 
+11:56:04:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:56:04:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:56:04:error: [CellularConnect] Error trying to open data connection 
+11:56:04:debug: [CellularConnect] Socket Status: 0 
+11:56:04:debug: [CellularConnect] Data Transferred : (0/0) 
+11:56:21:info: [CloudConnect] CONNECTING 
+11:56:21:info: [CloudConnect] DISCONNECTED 
+11:56:21:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:56:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 52 
+11:56:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 47 Flags: 547711 
+11:56:22:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+11:56:22:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 16 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+11:56:22:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+11:56:22:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+11:56:22:debug: [UpdateService] Target Version:  
+11:56:42:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 48 Flags: 547711 
+11:56:51:info: [CloudConnect] CONNECTING 
+11:56:51:info: [CloudConnect] DISCONNECTED 
+11:56:51:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+11:56:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 53 
+11:56:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 49 Flags: 547711 
+11:57:04:info: [CellularConnect] Running Health Check 
+11:57:04:debug: [CellularConnect] AT Commands Ok: true 
+11:57:04:debug: [CellularConnect] SMS Ok: true 
+11:57:04:debug: [CellularConnect] SIM Card Ok: true 
+11:57:04:debug: [CellularConnect] APN Ok: true 
+11:57:04:debug: [CellularConnect] Socket Config Ok: true 
+11:57:04:debug: [CellularConnect] Network Activated: true  Registration: 0 Operator: 0 
+11:57:04:debug: [CellularConnect] Signal: 31 BER: 7 
+11:57:04:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+11:57:04:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+11:57:04:error: [CellularConnect] Error trying to open data connection 
+11:57:04:debug: [CellularConnect] Socket Status: 0 
+11:57:04:debug: [CellularConnect] Data Transferred : (0/0) 
+11:57:09:info: [App] Power State Changed: POWER OFF 
+11:57:09:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2162692 
+11:57:09:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_restartCode = 1 
+11:57:09:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 50 Flags: 547455 
+11:57:09:info: [FsHelper] Starting Sync of File System 
+13:03:42:info: [App] Started App 
+13:03:42:info: [FsHelper] Starting Sync of File System 
+13:03:42:info: [StartupHelper] Running System Check 
+13:03:42:debug: [StartupHelper] HWClock and System Date are in sync 
+13:03:42:info: [App] System Check Passed 
+13:03:43:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2162692 
+13:03:43:debug: [DevicesService] Balanced CheckIns: {"3137442849":{"interval":3600,"delta":0},"3137496336":{"interval":3600,"delta":1200},"3137609865":{"interval":3600,"delta":2400},"3389007590":{"interval":21600,"delta":0},"3390046259":{"interval":21600,"delta":10800}} 
+13:03:43:debug: [UpdateService] Files: ["app.bundle.js","app.bundle.md5","coordinator.14.1.bin","coordinator.14.1.md5","coordinator.14.2.bin","coordinator.14.2.md5","mcu.8.2.bin","mcu.8.2.md5","mcu.8.3.bin","mcu.8.3.md5"] 
+13:03:43:debug: [UpdateService] Files: ["app.bundle.js","app.bundle.md5","coordinator.14.1.bin","coordinator.14.1.md5","coordinator.14.2.bin","coordinator.14.2.md5","mcu.8.2.bin","mcu.8.2.md5","mcu.8.3.bin","mcu.8.3.md5"] 
+13:03:43:debug: [UpdateService] Files: ["app.bundle.js","app.bundle.md5","coordinator.14.1.bin","coordinator.14.1.md5","coordinator.14.2.bin","coordinator.14.2.md5","mcu.8.2.bin","mcu.8.2.md5","mcu.8.3.bin","mcu.8.3.md5"] 
+13:03:43:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_resetCount = 38 
+13:03:43:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2097156 
+13:03:43:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 4 
+13:03:43:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2097156 
+13:03:43:info: [NetworkService] Starting 
+13:03:43:info: [NetworkService] ETH Changed: {"state":0,"address":"","netmask":"","family":"","mac":"","gateway":"","isDefault":false} 
+13:03:43:info: [NetworkService] WLAN Changed: {"state":0,"address":"","netmask":"","family":"","mac":"","gateway":"","isDefault":false,"connectedSSID":""} 
+13:03:43:debug: [NetworkService] Spawning IP Monitor 
+13:03:43:debug: [NetworkService] Finished Spawning IP Monitor 
+13:03:43:info: [CloudConnect] UNKNOWN 
+13:03:43:info: [CellularConnect] UNKNOWN 
+13:03:43:debug: [CellularConnect] OnPortsReady: false 
+13:03:43:info: [CellularConnect] DISCONNECTED 
+13:03:43:info: [CloudService] Starting 
+13:03:43:info: [CloudService] Heartbeats Stopped 
+13:03:43:info: [CloudService] Sync Timer Stopped 
+13:03:43:info: [CloudConnect] CONNECTING 
+13:03:43:info: [MCUService] Starting MCUService 
+13:03:43:info: [CoordinatorService] Starting CoordinatorService 
+13:03:43:info: [BLEService] Starting BLEService 
+13:03:43:info: [CloudConnect] DISCONNECTED 
+13:03:43:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:03:43:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_telitResetCount = 50 
+13:03:43:info: [App] Pausing Cellular Connection 
+13:03:43:error: [CellularConnect] Error on /dev/ttyACM3: Error: Port is not open 
+13:03:43:error: [CellularConnect] Error on /dev/ttyACM0: Error: Port is not open 
+13:03:43:info: [MCUConnectService] Connected to MCU 
+13:03:43:info: [CoordinatorConnect] Connected to Coordinator 
+13:03:43:info: [BLEConnect] Connected to BLE 
+13:03:43:error: [NetworkService] exec stderr: ifdown: interface wlan0 not configured
+ 
+13:03:43:error: [NetworkService] cmd: ifdown wlan0 
+13:03:44:debug: [CellularConnect] OnPortsReady: false 
+13:03:44:info: [CellularConnect] Connected to /dev/ttyACM3 
+13:03:44:debug: [CellularConnect] OnPortsReady: true 
+13:03:44:info: [CellularConnect] Running Health Check 
+13:03:44:info: [CellularConnect] Connected to /dev/ttyACM0 
+13:03:44:debug: [CoordinatorConnect] TX -> V1RFInfoMessage.REQUEST_COORDINATOR_INFO - ID: 2 TXID: null
+      checkinInterval: 10800
+      nextCheckIn:     undefined
+      messageFlags:    undefined
+     
+13:03:44:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 2 
+13:03:44:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 3 
+13:03:44:debug: [CellularConnect] AT Commands Ok: true 
+13:03:44:debug: [UpdateService] Checking for available MCU Firmware Update 
+13:03:44:debug: [UpdateService] Checking for available Firmware Update (current version: 8.3) 
+13:03:44:debug: [UpdateService] Target Version:  
+13:03:44:info: [App] Power State Changed: POWER ON 
+13:03:44:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 1 Flags: 543615 
+13:03:44:debug: [CellularConnect] SMS Ok: true 
+13:03:44:debug: [CellularConnect] SIM Card Ok: true 
+13:03:44:debug: [CellularConnect] APN Ok: true 
+13:03:44:debug: [CellularConnect] Socket Config Ok: true 
+13:03:44:debug: [CellularConnect] Network Activated: false  Registration: 2 Operator: 0 
+13:03:44:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:03:44:debug: [CoordinatorService] Turning off buffer because of CoordinatorDeviceMessageType.DEVICE_POWER_ON - ID: 1 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:03:44:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_POWER_ON - ID: 1 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:03:44:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:03:44:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:03:44:debug: [UpdateService] Target Version:  
+13:03:46:info: [App] Restarting Telit 
+13:03:46:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 3 
+13:03:46:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 1 Flags: 547711 
+13:03:47:debug: [CellularConnect] OnPortsReady: false 
+13:03:47:warn: [CellularConnect] Disconnected from /dev/ttyACM0 (close): undefined 
+13:03:47:debug: [CellularConnect] OnPortsReady: false 
+13:03:47:warn: [CellularConnect] Disconnected from /dev/ttyACM3 (close): undefined 
+13:03:58:info: [App] Power State Changed: POWER OFF 
+13:03:58:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2162692 
+13:03:58:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_restartCode = 1 
+13:03:58:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 2 Flags: 531007 
+13:03:58:info: [FsHelper] Starting Sync of File System 
+13:03:58:warn: [DBService] Pausing DB 
+13:03:58:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 4 
+13:03:58:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 3 Flags: 530495 
+13:04:01:info: [App] Power State Changed: POWER ON 
+13:04:01:warn: [NonvolatileDataService] Paused! Dropping save _flags$ 
+13:04:01:info: [DBService] Resuming DB 
+13:04:01:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_restartCode = 1 
+13:04:01:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 4 Flags: 530751 
+13:04:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 5 
+13:04:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 5 Flags: 530751 
+13:04:02:warn: [BLEConnect] Disconnected from BLE (disconnect): Error: Error bad file descriptor on polling 
+13:04:02:warn: [CoordinatorConnect] Disconnected from Coordinator (disconnect): Error: Error bad file descriptor on polling 
+13:04:02:warn: [BLEConnect] Disconnected from BLE (close): undefined 
+13:04:02:warn: [CoordinatorConnect] Disconnected from Coordinator (close): undefined 
+13:04:13:info: [CloudConnect] CONNECTING 
+13:04:13:info: [CloudConnect] DISCONNECTED 
+13:04:13:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:04:13:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 6 
+13:04:13:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 6 Flags: 531263 
+13:04:16:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 7 
+13:04:16:info: [App] Finished Restarting Telit 
+13:04:16:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 7 Flags: 531263 
+13:04:18:info: [App] Power State Changed: POWER OFF 
+13:04:18:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2162692 
+13:04:18:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_restartCode = 1 
+13:04:18:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 8 Flags: 531071 
+13:04:18:info: [FsHelper] Starting Sync of File System 
+13:04:58:info: [App] Started App 
+13:04:58:info: [FsHelper] Starting Sync of File System 
+13:04:58:info: [StartupHelper] Running System Check 
+13:04:58:debug: [StartupHelper] HWClock and System Date are in sync 
+13:04:58:info: [App] System Check Passed 
+13:04:59:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2162692 
+13:04:59:debug: [DevicesService] Balanced CheckIns: {"3137442849":{"interval":3600,"delta":0},"3137496336":{"interval":3600,"delta":1200},"3137609865":{"interval":3600,"delta":2400},"3389007590":{"interval":21600,"delta":0},"3390046259":{"interval":21600,"delta":10800}} 
+13:04:59:debug: [UpdateService] Files: ["app.bundle.js","app.bundle.md5","coordinator.14.1.bin","coordinator.14.1.md5","coordinator.14.2.bin","coordinator.14.2.md5","mcu.8.2.bin","mcu.8.2.md5","mcu.8.3.bin","mcu.8.3.md5"] 
+13:04:59:debug: [UpdateService] Files: ["app.bundle.js","app.bundle.md5","coordinator.14.1.bin","coordinator.14.1.md5","coordinator.14.2.bin","coordinator.14.2.md5","mcu.8.2.bin","mcu.8.2.md5","mcu.8.3.bin","mcu.8.3.md5"] 
+13:04:59:debug: [UpdateService] Files: ["app.bundle.js","app.bundle.md5","coordinator.14.1.bin","coordinator.14.1.md5","coordinator.14.2.bin","coordinator.14.2.md5","mcu.8.2.bin","mcu.8.2.md5","mcu.8.3.bin","mcu.8.3.md5"] 
+13:04:59:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_resetCount = 39 
+13:04:59:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2097156 
+13:04:59:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 4 
+13:04:59:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2097156 
+13:04:59:info: [NetworkService] Starting 
+13:04:59:info: [NetworkService] ETH Changed: {"state":0,"address":"","netmask":"","family":"","mac":"","gateway":"","isDefault":false} 
+13:04:59:info: [NetworkService] WLAN Changed: {"state":0,"address":"","netmask":"","family":"","mac":"","gateway":"","isDefault":false,"connectedSSID":""} 
+13:04:59:debug: [NetworkService] Spawning IP Monitor 
+13:04:59:debug: [NetworkService] Finished Spawning IP Monitor 
+13:04:59:info: [CloudConnect] UNKNOWN 
+13:04:59:info: [CellularConnect] UNKNOWN 
+13:04:59:debug: [CellularConnect] OnPortsReady: false 
+13:04:59:info: [CellularConnect] DISCONNECTED 
+13:04:59:info: [CloudService] Starting 
+13:04:59:info: [CloudService] Heartbeats Stopped 
+13:04:59:info: [CloudService] Sync Timer Stopped 
+13:04:59:info: [CloudConnect] CONNECTING 
+13:04:59:info: [MCUService] Starting MCUService 
+13:04:59:info: [CoordinatorService] Starting CoordinatorService 
+13:04:59:info: [BLEService] Starting BLEService 
+13:04:59:info: [CloudConnect] DISCONNECTED 
+13:04:59:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:04:59:warn: [CellularConnect] Called .connect() before /dev/ ports are available 
+13:04:59:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_telitResetCount = 51 
+13:04:59:info: [App] Pausing Cellular Connection 
+13:04:59:info: [MCUConnectService] Connected to MCU 
+13:04:59:info: [CoordinatorConnect] Connected to Coordinator 
+13:04:59:info: [BLEConnect] Connected to BLE 
+13:04:59:error: [NetworkService] exec stderr: ifdown: interface wlan0 not configured
+ 
+13:04:59:error: [NetworkService] cmd: ifdown wlan0 
+13:05:00:debug: [CoordinatorConnect] TX -> V1RFInfoMessage.REQUEST_COORDINATOR_INFO - ID: 2 TXID: null
+      checkinInterval: 10800
+      nextCheckIn:     undefined
+      messageFlags:    undefined
+     
+13:05:00:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 3 
+13:05:00:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 2 
+13:05:00:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:05:00:debug: [CoordinatorService] Turning off buffer because of CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 1 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:05:00:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 1 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:05:00:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:05:00:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:05:00:debug: [UpdateService] Target Version:  
+13:05:00:debug: [UpdateService] Checking for available MCU Firmware Update 
+13:05:00:debug: [UpdateService] Checking for available Firmware Update (current version: 8.3) 
+13:05:00:debug: [UpdateService] Target Version:  
+13:05:00:info: [App] Power State Changed: POWER ON 
+13:05:00:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 11 Flags: 547711 
+13:05:02:info: [App] Restarting Telit 
+13:05:02:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 3 
+13:05:02:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 12 Flags: 547711 
+13:05:03:info: [App] Power State Changed: POWER OFF 
+13:05:03:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2162692 
+13:05:03:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_restartCode = 1 
+13:05:03:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 13 Flags: 531007 
+13:05:03:info: [FsHelper] Starting Sync of File System 
+13:05:03:warn: [DBService] Pausing DB 
+13:05:03:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 4 
+13:05:03:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 14 Flags: 530495 
+13:05:04:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB026510 -> 0xFFFFFFFF 
+13:05:04:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB026510 -> 0xFFFFFFFF 
+13:05:04:debug: [CoordinatorService] Created Read for BB026510 - 5 Tue Apr 19 2022 13:05:04 GMT-0400 (EDT) 
+13:05:04:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB026510 
+13:05:04:debug: [DataService] Saved read for BB026510 
+13:05:04:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 5 
+13:05:04:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB026510 (checkInInterval: 1800 nextCheckIn: 2247) 
+13:05:04:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 15 Flags: 530495 
+13:05:05:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:05:05:info: [App] Power State Changed: POWER ON 
+13:05:05:warn: [NonvolatileDataService] Paused! Dropping save _flags$ 
+13:05:05:info: [DBService] Resuming DB 
+13:05:05:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_restartCode = 1 
+13:05:05:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 16 Flags: 530751 
+13:05:05:warn: [BLEConnect] Disconnected from BLE (disconnect): Error: Error bad file descriptor on polling 
+13:05:05:warn: [CoordinatorConnect] Disconnected from Coordinator (disconnect): Error: Error bad file descriptor on polling 
+13:05:05:warn: [BLEConnect] Disconnected from BLE (close): undefined 
+13:05:05:warn: [CoordinatorConnect] Disconnected from Coordinator (close): undefined 
+13:05:05:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 6 
+13:05:05:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 17 Flags: 530751 
+13:05:29:info: [CloudConnect] CONNECTING 
+13:05:29:info: [CloudConnect] DISCONNECTED 
+13:05:29:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:05:29:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 7 
+13:05:29:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 18 Flags: 531263 
+13:05:32:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 8 
+13:05:32:info: [App] Finished Restarting Telit 
+13:05:32:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 19 Flags: 531263 
+13:05:35:info: [BLEConnect] Connected to BLE 
+13:05:35:info: [CoordinatorConnect] Connected to Coordinator 
+13:05:35:debug: [CoordinatorConnect] TX -> V1RFInfoMessage.REQUEST_COORDINATOR_INFO - ID: 5 TXID: null
+      checkinInterval: 10800
+      nextCheckIn:     undefined
+      messageFlags:    undefined
+     
+13:05:35:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 6 
+13:05:35:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:05:35:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 6 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:05:35:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:05:35:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:05:35:debug: [UpdateService] Target Version:  
+13:05:35:info: [App] Resuming Cellular Connection 
+13:05:35:warn: [CellularConnect] Called .connect() before /dev/ ports are available 
+13:05:39:warn: [CellularConnect] Called .connect() before /dev/ ports are available 
+13:05:44:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:05:44:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 7 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:05:44:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:05:44:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:05:44:debug: [UpdateService] Target Version:  
+13:05:49:debug: [CellularConnect] OnPortsReady: false 
+13:05:49:info: [CellularConnect] Connected to /dev/ttyACM3 
+13:05:49:debug: [CellularConnect] OnPortsReady: true 
+13:05:49:info: [CellularConnect] Running Health Check 
+13:05:49:info: [CellularConnect] Connected to /dev/ttyACM0 
+13:05:49:debug: [CellularConnect] AT Commands Ok: true 
+13:05:49:debug: [CellularConnect] SMS Ok: true 
+13:05:49:debug: [CellularConnect] SIM Card Ok: true 
+13:05:49:debug: [CellularConnect] APN Ok: true 
+13:05:49:debug: [CellularConnect] Socket Config Ok: true 
+13:05:49:debug: [CellularConnect] Network Activated: false  Registration: 0 Operator: 0 
+13:05:59:info: [CloudConnect] CONNECTING 
+13:05:59:info: [CloudConnect] DISCONNECTED 
+13:05:59:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:05:59:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 9 
+13:05:59:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 20 Flags: 547711 
+13:06:09:info: [App] Power State Changed: POWER OFF 
+13:06:09:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2162692 
+13:06:09:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_restartCode = 1 
+13:06:09:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 21 Flags: 547455 
+13:06:09:info: [FsHelper] Starting Sync of File System 
+13:06:09:warn: [DBService] Pausing DB 
+13:06:09:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 10 
+13:06:09:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 22 Flags: 546943 
+13:06:14:info: [App] Power State Changed: POWER ON 
+13:06:14:warn: [NonvolatileDataService] Paused! Dropping save _flags$ 
+13:06:14:info: [DBService] Resuming DB 
+13:06:14:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_restartCode = 1 
+13:06:14:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 23 Flags: 547199 
+13:06:14:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 11 
+13:06:14:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 24 Flags: 547199 
+13:06:14:warn: [BLEConnect] Disconnected from BLE (disconnect): Error: Error bad file descriptor on polling 
+13:06:14:warn: [CoordinatorConnect] Disconnected from Coordinator (disconnect): Error: Error bad file descriptor on polling 
+13:06:14:warn: [BLEConnect] Disconnected from BLE (close): undefined 
+13:06:14:warn: [CoordinatorConnect] Disconnected from Coordinator (close): undefined 
+13:06:29:info: [CloudConnect] CONNECTING 
+13:06:29:info: [CloudConnect] DISCONNECTED 
+13:06:29:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:06:29:debug: [AccountabilityBooster] Starting Check: BLEService 
+13:06:29:debug: [BLEConnect] SETTING INTO CMD MODE 
+13:06:29:error: [BLEConnect] BLEConnectionService Error: Error: Port is not open 
+13:06:29:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 12 
+13:06:29:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 25 Flags: 547711 
+13:06:32:debug: [AccountabilityBooster] 	 BLEService added to list of failing modules 
+13:06:32:debug: [AccountabilityBooster] Finished Check: BLEService 
+13:06:32:debug: [AccountabilityBooster] Starting Check: CloudService 
+13:06:32:debug: [AccountabilityBooster] Finished Check: CloudService 
+13:06:32:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+13:06:32:error: [CoordinatorConnect] CoordinatorConnectService Error: Error: Could not send message without an open SerialPort 
+13:06:34:debug: [AccountabilityBooster] 	 CoordinatorService added to list of failing modules 
+13:06:34:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+13:06:34:debug: [AccountabilityBooster] Starting Check: DataService 
+13:06:34:debug: [AccountabilityBooster] Finished Check: DataService 
+13:06:34:debug: [AccountabilityBooster] Starting Check: DevicesService 
+13:06:34:debug: [AccountabilityBooster] Finished Check: DevicesService 
+13:06:34:debug: [AccountabilityBooster] Starting Check: InfoService 
+13:06:34:debug: [AccountabilityBooster] Finished Check: InfoService 
+13:06:34:debug: [AccountabilityBooster] Starting Check: UpdateService 
+13:06:34:debug: [AccountabilityBooster] Finished Check: UpdateService 
+13:06:34:debug: [AccountabilityBooster] Starting Check: MCUService 
+13:06:34:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 13 
+13:06:34:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 26 Flags: 547711 
+13:06:34:debug: [AccountabilityBooster] Finished Check: MCUService 
+13:06:34:debug: [AccountabilityBooster] 	Calling BLEService.reset() 
+13:06:34:error: [BLEConnect] BLEConnectionService Error: Error: Port is not open 
+13:06:37:debug: [BLEConnect] SETTING INTO CMD MODE 
+13:06:37:error: [BLEConnect] BLEConnectionService Error: Error: Port is not open 
+13:06:40:debug: [AccountabilityBooster] 	 BLEService failed and reset did not help 
+13:06:40:debug: [AccountabilityBooster] 	Calling CoordinatorService.reset() 
+13:06:40:info: [MCUService] Turning OFF Coordinator 
+13:06:40:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 14 
+13:06:41:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 27 Flags: 547711 
+13:06:41:info: [MCUService] Turning ON Coordinator 
+13:06:41:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 15 
+13:06:41:info: [CoordinatorService] Resetting Coordinator Virtual Buffer 
+13:06:42:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 28 Flags: 543615 
+13:06:42:error: [CoordinatorConnect] CoordinatorConnectService Error: Error: Could not send message without an open SerialPort 
+13:06:43:info: [CoordinatorConnect] Connected to Coordinator 
+13:06:43:debug: [CoordinatorConnect] TX -> V1RFInfoMessage.REQUEST_COORDINATOR_INFO - ID: 7 TXID: null
+      checkinInterval: 10800
+      nextCheckIn:     undefined
+      messageFlags:    undefined
+     
+13:06:43:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 8 
+13:06:43:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:06:43:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 1 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:06:43:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:06:43:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:06:43:debug: [UpdateService] Target Version:  
+13:06:43:debug: [AccountabilityBooster] 	 CoordinatorService removed from list of failing modules 
+13:06:43:debug: [AccountabilityBooster] Health check was not completely successful 
+13:06:44:info: [BLEConnect] Connected to BLE 
+13:06:46:info: [App] Power State Changed: POWER OFF 
+13:06:46:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2162692 
+13:06:46:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_restartCode = 1 
+13:06:46:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 29 Flags: 547455 
+13:06:46:info: [FsHelper] Starting Sync of File System 
+13:06:46:warn: [DBService] Pausing DB 
+13:06:46:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 16 
+13:06:46:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 30 Flags: 546943 
+13:06:49:info: [CellularConnect] Running Health Check 
+13:06:49:debug: [CellularConnect] AT Commands Ok: true 
+13:06:49:debug: [CellularConnect] SMS Ok: true 
+13:06:49:debug: [CellularConnect] SIM Card Ok: true 
+13:06:49:debug: [CellularConnect] APN Ok: true 
+13:06:49:debug: [CellularConnect] Socket Config Ok: true 
+13:06:49:warn: [CellularConnect] Network Not Active 
+13:06:49:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:06:49:warn: [NonvolatileDataService] Paused! Dropping save _flags$ 
+13:06:49:warn: [NonvolatileDataService] Paused! Dropping save _restartCode 
+13:06:49:info: [FsHelper] Starting Sync of File System 
+13:06:49:warn: [DBService] Pausing DB 
+13:06:49:debug: [CellularConnect] Signal: 22 BER: 6 
+13:06:49:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+13:06:49:info: [CellularConnect] CONNECTING 
+13:06:49:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+13:06:50:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 17 
+13:06:50:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 31 Flags: 546943 
+13:06:50:error: [CellularConnect] Error trying to open data connection 
+13:06:50:debug: [CellularConnect] Socket Status: 0 
+13:06:50:debug: [CellularConnect] Data Transferred : (0/0) 
+13:06:50:info: [App] Power State Changed: POWER ON 
+13:06:50:warn: [NonvolatileDataService] Paused! Dropping save _flags$ 
+13:06:50:info: [DBService] Resuming DB 
+13:06:50:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_restartCode = 1 
+13:06:50:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 32 Flags: 547199 
+13:06:50:warn: [BLEConnect] Disconnected from BLE (disconnect): Error: Error bad file descriptor on polling 
+13:06:50:warn: [CoordinatorConnect] Disconnected from Coordinator (disconnect): Error: Error bad file descriptor on polling 
+13:06:50:warn: [BLEConnect] Disconnected from BLE (close): undefined 
+13:06:50:warn: [CoordinatorConnect] Disconnected from Coordinator (close): undefined 
+13:06:51:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 18 
+13:06:51:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 33 Flags: 547199 
+13:06:59:info: [CloudConnect] CONNECTING 
+13:06:59:info: [CloudConnect] DISCONNECTED 
+13:06:59:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:06:59:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 19 
+13:06:59:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 34 Flags: 547711 
+13:07:20:info: [BLEConnect] Connected to BLE 
+13:07:20:info: [CoordinatorConnect] Connected to Coordinator 
+13:07:20:debug: [CoordinatorConnect] TX -> V1RFInfoMessage.REQUEST_COORDINATOR_INFO - ID: 9 TXID: null
+      checkinInterval: 10800
+      nextCheckIn:     undefined
+      messageFlags:    undefined
+     
+13:07:20:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 10 
+13:07:21:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:07:21:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 11 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:07:21:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:07:21:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:07:21:debug: [UpdateService] Target Version:  
+13:07:29:info: [CloudConnect] CONNECTING 
+13:07:29:info: [CloudConnect] DISCONNECTED 
+13:07:29:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:07:29:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 20 
+13:07:29:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 35 Flags: 547711 
+13:07:35:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB026510 -> 0xFFFFFFFF 
+13:07:35:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB026510 -> 0xFFFFFFFF 
+13:07:35:debug: [CoordinatorService] Created Read for BB026510 - 5 Tue Apr 19 2022 13:07:35 GMT-0400 (EDT) 
+13:07:35:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB026510 
+13:07:35:debug: [DataService] Saved read for BB026510 
+13:07:35:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 21 
+13:07:35:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB026510 (checkInInterval: 1800 nextCheckIn: 2172) 
+13:07:35:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 36 Flags: 547711 
+13:07:35:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:07:44:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB026510 -> 0xFFFFFFFF 
+13:07:44:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB026510 -> 0xFFFFFFFF 
+13:07:44:debug: [CoordinatorService] Created Read for BB026510 - 5 Tue Apr 19 2022 13:07:44 GMT-0400 (EDT) 
+13:07:44:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB026510 
+13:07:44:debug: [DataService] Saved read for BB026510 
+13:07:44:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 22 
+13:07:44:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB026510 (checkInInterval: 1800 nextCheckIn: 2167) 
+13:07:44:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 37 Flags: 547711 
+13:07:45:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:07:49:info: [CellularConnect] Running Health Check 
+13:07:49:debug: [CellularConnect] AT Commands Ok: true 
+13:07:49:debug: [CellularConnect] SMS Ok: true 
+13:07:49:debug: [CellularConnect] SIM Card Ok: true 
+13:07:49:debug: [CellularConnect] APN Ok: true 
+13:07:49:debug: [CellularConnect] Socket Config Ok: true 
+13:07:49:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:07:49:debug: [CellularConnect] Signal: 22 BER: 6 
+13:07:49:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+13:07:49:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+13:07:50:debug: [CellularConnect] Socket Status: 0 
+13:07:50:debug: [CellularConnect] Data Transferred : (0/0) 
+13:07:59:info: [CloudConnect] CONNECTING 
+13:07:59:info: [CloudConnect] DISCONNECTED 
+13:07:59:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:07:59:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 23 
+13:07:59:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 38 Flags: 547711 
+13:08:07:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 39 Flags: 547711 
+13:08:29:info: [CloudConnect] CONNECTING 
+13:08:29:info: [CloudConnect] DISCONNECTED 
+13:08:29:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:08:29:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 24 
+13:08:29:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 40 Flags: 547711 
+13:08:33:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:08:33:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:08:33:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:08:33 GMT-0400 (EDT) 
+13:08:33:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:08:33:debug: [DataService] Saved read for BB019421 
+13:08:33:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 25 
+13:08:33:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1543) 
+13:08:33:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 41 Flags: 547711 
+13:08:33:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:08:40:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:08:40:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:08:40:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:08:40 GMT-0400 (EDT) 
+13:08:40:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:08:40:debug: [DataService] Saved read for BB019421 
+13:08:40:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 26 
+13:08:40:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1539) 
+13:08:40:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 42 Flags: 547711 
+13:08:41:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:08:43:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:08:43:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 28 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:08:43:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:08:43:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:08:43:debug: [UpdateService] Target Version:  
+13:08:49:info: [CellularConnect] Running Health Check 
+13:08:49:debug: [CellularConnect] AT Commands Ok: true 
+13:08:49:debug: [CellularConnect] SMS Ok: true 
+13:08:49:debug: [CellularConnect] SIM Card Ok: true 
+13:08:49:debug: [CellularConnect] APN Ok: true 
+13:08:49:debug: [CellularConnect] Socket Config Ok: true 
+13:08:49:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:08:49:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2100228 
+13:08:49:info: [DBService] Resuming DB 
+13:08:49:debug: [CellularConnect] Signal: 29 BER: 4 
+13:08:49:info: [CellularConnect] CONNECTED 
+13:08:49:info: [CloudService] Heartbeats Started (Delay: 59.327s) 
+13:08:49:info: [CloudService] Sync Timer Started (Delay: 29.570066666666666m) 
+13:08:49:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2100484 
+13:08:49:info: [DBService] Resuming DB 
+13:08:49:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 2  ReqID: undefined 
+13:08:49:debug: [CellularConnect] Socket Status: 1 
+13:08:49:debug: [CellularConnect] Data Transferred : (57/0) 
+13:08:49:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 27 
+13:08:50:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 43 Flags: 547711 
+13:08:50:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:08:50:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:08:50:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:08:50 GMT-0400 (EDT) 
+13:08:50:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:08:50:debug: [DataService] Saved read for BB019421 
+13:08:50:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 28 
+13:08:50:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1534) 
+13:08:50:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 44 Flags: 547711 
+13:08:50:debug: [CellularConnect] TX GatewayMessage.REQUEST_TIME - ID: 3  ReqID: undefined 
+13:08:51:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:08:59:info: [CloudConnect] CONNECTING 
+13:08:59:info: [CloudConnect] DISCONNECTED 
+13:08:59:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:08:59:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 29 
+13:08:59:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 45 Flags: 547711 
+13:09:09:warn: [CellularConnect] Retrying GatewayMessage.INFO - ID: 2  ReqID: undefined 
+13:09:09:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 2  ReqID: undefined 
+13:09:10:warn: [CellularConnect] Retrying GatewayMessage.REQUEST_TIME - ID: 3  ReqID: undefined 
+13:09:10:debug: [CellularConnect] TX GatewayMessage.REQUEST_TIME - ID: 3  ReqID: undefined 
+13:09:29:info: [CloudConnect] CONNECTING 
+13:09:29:info: [CloudConnect] DISCONNECTED 
+13:09:29:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:09:29:debug: [AccountabilityBooster] Starting Check: BLEService 
+13:09:29:debug: [BLEConnect] SETTING INTO CMD MODE 
+13:09:29:warn: [CellularConnect] Retrying GatewayMessage.INFO - ID: 2  ReqID: undefined 
+13:09:29:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 2  ReqID: undefined 
+13:09:29:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 30 
+13:09:29:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 46 Flags: 547711 
+13:09:30:debug: [BLEConnect] ENTERED CMD MODE 
+13:09:30:warn: [CellularConnect] Retrying GatewayMessage.REQUEST_TIME - ID: 3  ReqID: undefined 
+13:09:30:debug: [CellularConnect] TX GatewayMessage.REQUEST_TIME - ID: 3  ReqID: undefined 
+13:09:30:debug: [BLEConnect] GOT DEVICE INFOGW301-DA102382 C0 
+13:09:31:debug: [BLEConnect] EXITED CMD MODE 
+13:09:31:debug: [AccountabilityBooster] Finished Check: BLEService 
+13:09:31:debug: [AccountabilityBooster] Starting Check: CloudService 
+13:09:31:debug: [AccountabilityBooster] Finished Check: CloudService 
+13:09:31:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+13:09:31:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 16 
+13:09:31:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:09:31:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 33 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:09:31:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:09:31:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:09:31:debug: [UpdateService] Target Version:  
+13:09:31:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+13:09:31:debug: [AccountabilityBooster] Starting Check: DataService 
+13:09:31:debug: [AccountabilityBooster] Finished Check: DataService 
+13:09:31:debug: [AccountabilityBooster] Starting Check: DevicesService 
+13:09:31:debug: [AccountabilityBooster] Finished Check: DevicesService 
+13:09:31:debug: [AccountabilityBooster] Starting Check: InfoService 
+13:09:31:debug: [AccountabilityBooster] Finished Check: InfoService 
+13:09:31:debug: [AccountabilityBooster] Starting Check: UpdateService 
+13:09:31:debug: [AccountabilityBooster] Finished Check: UpdateService 
+13:09:31:debug: [AccountabilityBooster] Starting Check: MCUService 
+13:09:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 31 
+13:09:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 47 Flags: 547711 
+13:09:31:debug: [AccountabilityBooster] Finished Check: MCUService 
+13:09:31:debug: [AccountabilityBooster] 	Calling BLEService.reset() 
+13:09:34:debug: [BLEConnect] SETTING INTO CMD MODE 
+13:09:35:debug: [BLEConnect] ENTERED CMD MODE 
+13:09:35:debug: [BLEConnect] GOT DEVICE INFOGW301-DA102382 C0 
+13:09:36:debug: [BLEConnect] EXITED CMD MODE 
+13:09:36:debug: [AccountabilityBooster] 	 BLEService removed from list of failing modules 
+13:09:36:debug: [MCUConnectService] Sending: CMDMessage.FEED_THE_DOG - ID: 32 
+13:09:49:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 4  ReqID: undefined 
+13:09:49:info: [CellularConnect] Running Health Check 
+13:09:49:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:09:49:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2097412 
+13:09:49:info: [DBService] Resuming DB 
+13:09:49:debug: [CellularConnect] Signal: 4 BER: 7 
+13:09:49:debug: [CellularConnect] Socket Status: 1 
+13:09:49:debug: [CellularConnect] Data Transferred : (351/0) 
+13:09:49:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 33 
+13:09:49:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 48 Flags: 547711 
+13:09:50:error: [CloudService] Could Not Get Current Time: Error: Timeout 
+13:09:59:info: [CloudConnect] CONNECTING 
+13:09:59:info: [CloudConnect] DISCONNECTED 
+13:09:59:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:09:59:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 34 
+13:09:59:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 49 Flags: 547711 
+13:10:09:warn: [CellularConnect] Retrying GatewayMessage.INFO - ID: 4  ReqID: undefined 
+13:10:09:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 4  ReqID: undefined 
+13:10:29:warn: [CellularConnect] Retrying GatewayMessage.INFO - ID: 4  ReqID: undefined 
+13:10:29:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 4  ReqID: undefined 
+13:10:29:info: [CloudConnect] CONNECTING 
+13:10:29:info: [CloudConnect] DISCONNECTED 
+13:10:29:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:10:29:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 35 
+13:10:29:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 50 Flags: 547711 
+13:10:43:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:10:43:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 34 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:10:43:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:10:43:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:10:43:debug: [UpdateService] Target Version:  
+13:10:49:info: [CellularConnect] Running Health Check 
+13:10:49:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:10:49:debug: [CellularConnect] Signal: 4 BER: 7 
+13:10:49:debug: [CellularConnect] Socket Status: 1 
+13:10:49:debug: [CellularConnect] Data Transferred : (465/0) 
+13:10:59:info: [CloudConnect] CONNECTING 
+13:10:59:info: [CloudConnect] DISCONNECTED 
+13:10:59:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:10:59:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 36 
+13:10:59:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 51 Flags: 547711 
+13:11:12:debug: [CellularConnect] OnPortsReady: false 
+13:11:12:warn: [CellularConnect] Disconnected from /dev/ttyACM0 (close): undefined 
+13:11:12:debug: [CellularConnect] OnPortsReady: false 
+13:11:12:warn: [CellularConnect] Disconnected from /dev/ttyACM3 (close): undefined 
+13:11:22:debug: [CellularConnect] OnPortsReady: false 
+13:11:22:info: [CellularConnect] Connected to /dev/ttyACM3 
+13:11:22:debug: [CellularConnect] OnPortsReady: true 
+13:11:22:info: [CellularConnect] Running Health Check 
+13:11:22:info: [CellularConnect] Connected to /dev/ttyACM0 
+13:11:22:warn: [CellularConnect] Network Not Active 
+13:11:22:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:11:22:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2100484 
+13:11:22:info: [DBService] Resuming DB 
+13:11:22:debug: [CellularConnect] Signal: 25 BER: 4 
+13:11:22:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+13:11:22:info: [CellularConnect] CONNECTING 
+13:11:22:info: [CloudService] Heartbeats Stopped 
+13:11:22:info: [CloudService] Sync Timer Stopped 
+13:11:22:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2100228 
+13:11:22:info: [DBService] Resuming DB 
+13:11:22:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+13:11:22:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 37 
+13:11:22:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 52 Flags: 547711 
+13:11:23:debug: [CellularConnect] Socket Status: 0 
+13:11:23:debug: [CellularConnect] Data Transferred : (0/0) 
+13:11:29:info: [CloudConnect] CONNECTING 
+13:11:29:info: [CloudConnect] DISCONNECTED 
+13:11:29:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:11:29:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 38 
+13:11:29:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 53 Flags: 547711 
+13:11:59:info: [CloudConnect] CONNECTING 
+13:11:59:info: [CloudConnect] DISCONNECTED 
+13:11:59:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:11:59:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 39 
+13:11:59:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 54 Flags: 547711 
+13:12:22:info: [CellularConnect] Running Health Check 
+13:12:22:debug: [CellularConnect] AT Commands Ok: true 
+13:12:22:debug: [CellularConnect] SMS Ok: true 
+13:12:22:debug: [CellularConnect] SIM Card Ok: true 
+13:12:22:debug: [CellularConnect] APN Ok: true 
+13:12:22:debug: [CellularConnect] Socket Config Ok: true 
+13:12:22:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:12:22:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2099204 
+13:12:22:info: [DBService] Resuming DB 
+13:12:22:debug: [CellularConnect] Signal: 26 BER: 5 
+13:12:22:info: [CellularConnect] CONNECTED 
+13:12:22:info: [CloudService] Heartbeats Started (Delay: 250.096s) 
+13:12:22:info: [CloudService] Sync Timer Started (Delay: 0.6399333333333334m) 
+13:12:22:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2099460 
+13:12:22:info: [DBService] Resuming DB 
+13:12:22:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 5  ReqID: undefined 
+13:12:22:debug: [CellularConnect] Socket Status: 1 
+13:12:22:debug: [CellularConnect] Data Transferred : (57/0) 
+13:12:22:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 40 
+13:12:22:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 55 Flags: 547711 
+13:12:22:debug: [CellularConnect] RX GatewayMessage.ACK - ID: 164  ReqID: 5 
+13:12:22:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_lastReceivedMessageAt = Tue Apr 19 2022 13:12:22 GMT-0400 (EDT) 
+13:12:22:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3148036 
+13:12:22:info: [DBService] Resuming DB 
+13:12:22:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 41 
+13:12:23:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 56 Flags: 547711 
+13:12:23:debug: [CellularConnect] TX GatewayMessage.REQUEST_TIME - ID: 6  ReqID: undefined 
+13:12:23:debug: [CellularConnect] RX TimeMessage.CURRENT_TIME - ID: 177  ReqID: 6 Tue Apr 19 2022 13:12:25 GMT-0400 (EDT) 
+13:12:23:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_lastReceivedMessageAt = Tue Apr 19 2022 13:12:23 GMT-0400 (EDT) 
+13:12:23:info: [CloudService] Setting Current Time res.timestampTue Apr 19 2022 13:12:25 GMT-0400 (EDT)  system date: Tue Apr 19 2022 13:12:23 GMT-0400 (EDT) 
+13:12:31:info: [CloudConnect] CONNECTING 
+13:12:31:info: [CloudConnect] DISCONNECTED 
+13:12:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:12:31:debug: [AccountabilityBooster] Starting Check: BLEService 
+13:12:31:debug: [AccountabilityBooster] Finished Check: BLEService 
+13:12:31:debug: [AccountabilityBooster] Starting Check: CloudService 
+13:12:31:debug: [AccountabilityBooster] Finished Check: CloudService 
+13:12:31:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+13:12:31:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 17 
+13:12:31:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:12:31:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 35 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:12:31:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:12:31:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:12:31:debug: [UpdateService] Target Version:  
+13:12:31:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+13:12:31:debug: [AccountabilityBooster] Starting Check: DataService 
+13:12:31:debug: [AccountabilityBooster] Finished Check: DataService 
+13:12:31:debug: [AccountabilityBooster] Starting Check: DevicesService 
+13:12:31:debug: [AccountabilityBooster] Finished Check: DevicesService 
+13:12:31:debug: [AccountabilityBooster] Starting Check: InfoService 
+13:12:31:debug: [AccountabilityBooster] Finished Check: InfoService 
+13:12:31:debug: [AccountabilityBooster] Starting Check: UpdateService 
+13:12:31:debug: [AccountabilityBooster] Finished Check: UpdateService 
+13:12:31:debug: [AccountabilityBooster] Starting Check: MCUService 
+13:12:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 42 
+13:12:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 57 Flags: 547711 
+13:12:31:debug: [AccountabilityBooster] Finished Check: MCUService 
+13:12:31:debug: [MCUConnectService] Sending: CMDMessage.FEED_THE_DOG - ID: 43 
+13:12:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 44 
+13:12:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 58 Flags: 547711 
+13:12:44:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:12:44:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 36 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:12:44:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:12:44:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:12:44:debug: [UpdateService] Target Version:  
+13:13:01:info: [CloudConnect] CONNECTING 
+13:13:01:info: [CloudConnect] DISCONNECTED 
+13:13:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:13:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 45 
+13:13:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 59 Flags: 547711 
+13:13:07:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 60 Flags: 547711 
+13:13:23:info: [CellularConnect] Running Health Check 
+13:13:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:13:23:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3149060 
+13:13:23:info: [DBService] Resuming DB 
+13:13:23:debug: [CellularConnect] Signal: 25 BER: 4 
+13:13:23:debug: [CellularConnect] Socket Status: 1 
+13:13:23:debug: [CellularConnect] Data Transferred : (98/88) 
+13:13:23:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 46 
+13:13:23:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 61 Flags: 547711 
+13:13:31:info: [CloudConnect] CONNECTING 
+13:13:31:info: [CloudConnect] DISCONNECTED 
+13:13:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:13:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 47 
+13:13:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 62 Flags: 547711 
+13:14:01:info: [CloudConnect] CONNECTING 
+13:14:01:info: [CloudConnect] DISCONNECTED 
+13:14:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:14:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 48 
+13:14:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 63 Flags: 547711 
+13:14:23:info: [CellularConnect] Running Health Check 
+13:14:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:14:23:debug: [CellularConnect] Signal: 25 BER: 3 
+13:14:23:debug: [CellularConnect] Socket Status: 1 
+13:14:23:debug: [CellularConnect] Data Transferred : (98/88) 
+13:14:31:info: [CloudConnect] CONNECTING 
+13:14:31:info: [CloudConnect] DISCONNECTED 
+13:14:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:14:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 49 
+13:14:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 64 Flags: 547711 
+13:14:44:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:14:44:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 37 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:14:44:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:14:44:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:14:44:debug: [UpdateService] Target Version:  
+13:15:01:info: [CloudConnect] CONNECTING 
+13:15:01:info: [CloudConnect] DISCONNECTED 
+13:15:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:15:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 50 
+13:15:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 65 Flags: 547711 
+13:15:23:info: [CellularConnect] Running Health Check 
+13:15:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:15:23:debug: [CellularConnect] Signal: 25 BER: 4 
+13:15:23:debug: [CellularConnect] Socket Status: 1 
+13:15:23:debug: [CellularConnect] Data Transferred : (98/88) 
+13:15:31:info: [CloudConnect] CONNECTING 
+13:15:31:info: [CloudConnect] DISCONNECTED 
+13:15:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:15:31:debug: [AccountabilityBooster] Starting Check: BLEService 
+13:15:31:debug: [AccountabilityBooster] Finished Check: BLEService 
+13:15:31:debug: [AccountabilityBooster] Starting Check: CloudService 
+13:15:31:debug: [AccountabilityBooster] Finished Check: CloudService 
+13:15:31:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+13:15:31:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 18 
+13:15:31:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:15:31:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 38 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:15:31:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:15:31:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:15:31:debug: [UpdateService] Target Version:  
+13:15:31:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+13:15:31:debug: [AccountabilityBooster] Starting Check: DataService 
+13:15:31:debug: [AccountabilityBooster] Finished Check: DataService 
+13:15:31:debug: [AccountabilityBooster] Starting Check: DevicesService 
+13:15:31:debug: [AccountabilityBooster] Finished Check: DevicesService 
+13:15:31:debug: [AccountabilityBooster] Starting Check: InfoService 
+13:15:31:debug: [AccountabilityBooster] Finished Check: InfoService 
+13:15:31:debug: [AccountabilityBooster] Starting Check: UpdateService 
+13:15:31:debug: [AccountabilityBooster] Finished Check: UpdateService 
+13:15:31:debug: [AccountabilityBooster] Starting Check: MCUService 
+13:15:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 51 
+13:15:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 66 Flags: 547711 
+13:15:31:debug: [AccountabilityBooster] Finished Check: MCUService 
+13:15:31:debug: [MCUConnectService] Sending: CMDMessage.FEED_THE_DOG - ID: 52 
+13:15:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 53 
+13:15:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 67 Flags: 547711 
+13:16:01:info: [CloudConnect] CONNECTING 
+13:16:01:info: [CloudConnect] DISCONNECTED 
+13:16:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:16:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 54 
+13:16:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 68 Flags: 547711 
+13:16:23:info: [CellularConnect] Running Health Check 
+13:16:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:16:23:debug: [CellularConnect] Signal: 25 BER: 3 
+13:16:23:debug: [CellularConnect] Socket Status: 1 
+13:16:23:debug: [CellularConnect] Data Transferred : (98/88) 
+13:16:31:info: [CloudConnect] CONNECTING 
+13:16:31:info: [CloudConnect] DISCONNECTED 
+13:16:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:16:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 55 
+13:16:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 69 Flags: 547711 
+13:16:33:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 7  ReqID: undefined 
+13:16:45:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:16:45:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 39 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:16:45:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:16:45:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:16:45:debug: [UpdateService] Target Version:  
+13:16:53:warn: [CellularConnect] Retrying GatewayMessage.INFO - ID: 7  ReqID: undefined 
+13:16:53:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 7  ReqID: undefined 
+13:17:01:info: [CloudConnect] CONNECTING 
+13:17:01:info: [CloudConnect] DISCONNECTED 
+13:17:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:17:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 56 
+13:17:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 70 Flags: 547711 
+13:17:13:warn: [CellularConnect] Retrying GatewayMessage.INFO - ID: 7  ReqID: undefined 
+13:17:13:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 7  ReqID: undefined 
+13:17:23:info: [CellularConnect] Running Health Check 
+13:17:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:17:23:debug: [CellularConnect] Signal: 26 BER: 3 
+13:17:23:debug: [CellularConnect] Socket Status: 1 
+13:17:23:debug: [CellularConnect] Data Transferred : (269/88) 
+13:17:30:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:17:30:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:17:30:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:17:30 GMT-0400 (EDT) 
+13:17:30:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:17:30:debug: [DataService] Saved read for BB019421 
+13:17:30:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 57 
+13:17:30:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1274) 
+13:17:30:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 71 Flags: 547711 
+13:17:30:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_BUSY 0xDA102382 -> 0xFFFFFFFF 
+13:17:30:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:17:31:info: [CloudConnect] CONNECTING 
+13:17:31:info: [CloudConnect] DISCONNECTED 
+13:17:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:17:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 58 
+13:17:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 72 Flags: 547711 
+13:17:49:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:17:49:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:17:49:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:17:49 GMT-0400 (EDT) 
+13:17:49:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:17:49:debug: [DataService] Saved read for BB019421 
+13:17:49:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 59 
+13:17:49:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1265) 
+13:17:49:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 73 Flags: 547711 
+13:17:50:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:18:01:info: [CloudConnect] CONNECTING 
+13:18:01:info: [CloudConnect] DISCONNECTED 
+13:18:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:18:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 60 
+13:18:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 74 Flags: 547711 
+13:18:07:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 75 Flags: 547711 
+13:18:23:info: [CellularConnect] Running Health Check 
+13:18:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:18:23:debug: [CellularConnect] Signal: 26 BER: 3 
+13:18:23:debug: [CellularConnect] Socket Status: 1 
+13:18:23:debug: [CellularConnect] Data Transferred : (269/88) 
+13:18:31:info: [CloudConnect] CONNECTING 
+13:18:31:info: [CloudConnect] DISCONNECTED 
+13:18:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:18:31:debug: [AccountabilityBooster] Starting Check: BLEService 
+13:18:31:debug: [AccountabilityBooster] Finished Check: BLEService 
+13:18:31:debug: [AccountabilityBooster] Starting Check: CloudService 
+13:18:31:debug: [AccountabilityBooster] Finished Check: CloudService 
+13:18:31:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+13:18:31:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 21 
+13:18:31:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:18:31:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 49 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:18:31:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:18:31:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:18:31:debug: [UpdateService] Target Version:  
+13:18:31:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+13:18:31:debug: [AccountabilityBooster] Starting Check: DataService 
+13:18:31:debug: [AccountabilityBooster] Finished Check: DataService 
+13:18:31:debug: [AccountabilityBooster] Starting Check: DevicesService 
+13:18:31:debug: [AccountabilityBooster] Finished Check: DevicesService 
+13:18:31:debug: [AccountabilityBooster] Starting Check: InfoService 
+13:18:31:debug: [AccountabilityBooster] Finished Check: InfoService 
+13:18:31:debug: [AccountabilityBooster] Starting Check: UpdateService 
+13:18:31:debug: [AccountabilityBooster] Finished Check: UpdateService 
+13:18:31:debug: [AccountabilityBooster] Starting Check: MCUService 
+13:18:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 61 
+13:18:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 76 Flags: 547711 
+13:18:31:debug: [AccountabilityBooster] Finished Check: MCUService 
+13:18:31:debug: [MCUConnectService] Sending: CMDMessage.FEED_THE_DOG - ID: 62 
+13:18:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 63 
+13:18:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 77 Flags: 547711 
+13:18:45:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:18:45:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 50 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:18:45:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:18:45:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:18:45:debug: [UpdateService] Target Version:  
+13:19:01:info: [CloudConnect] CONNECTING 
+13:19:01:info: [CloudConnect] DISCONNECTED 
+13:19:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:19:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 64 
+13:19:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 78 Flags: 547711 
+13:19:23:info: [CellularConnect] Running Health Check 
+13:19:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:19:23:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3148036 
+13:19:23:info: [DBService] Resuming DB 
+13:19:23:debug: [CellularConnect] Signal: 26 BER: 5 
+13:19:23:debug: [CellularConnect] Socket Status: 1 
+13:19:23:debug: [CellularConnect] Data Transferred : (269/88) 
+13:19:23:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 65 
+13:19:23:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 79 Flags: 547711 
+13:19:31:info: [CloudConnect] CONNECTING 
+13:19:31:info: [CloudConnect] DISCONNECTED 
+13:19:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:19:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 66 
+13:19:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 80 Flags: 547711 
+13:20:01:info: [CloudConnect] CONNECTING 
+13:20:01:info: [CloudConnect] DISCONNECTED 
+13:20:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:20:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 67 
+13:20:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 81 Flags: 547711 
+13:20:23:info: [CellularConnect] Running Health Check 
+13:20:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:20:23:debug: [CellularConnect] Signal: 24 BER: 5 
+13:20:23:debug: [CellularConnect] Socket Status: 1 
+13:20:23:debug: [CellularConnect] Data Transferred : (269/88) 
+13:20:31:info: [CloudConnect] CONNECTING 
+13:20:31:info: [CloudConnect] DISCONNECTED 
+13:20:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:20:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 68 
+13:20:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 82 Flags: 547711 
+13:20:45:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:20:45:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 51 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:20:45:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:20:45:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:20:45:debug: [UpdateService] Target Version:  
+13:20:56:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:20:56:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:20:56:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:20:56 GMT-0400 (EDT) 
+13:20:56:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:20:56:debug: [DataService] Saved read for BB019421 
+13:20:56:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 69 
+13:20:56:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1171) 
+13:20:56:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 83 Flags: 547711 
+13:20:56:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:21:01:info: [CloudConnect] CONNECTING 
+13:21:01:info: [CloudConnect] DISCONNECTED 
+13:21:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:21:01:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:01:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:01:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:21:01 GMT-0400 (EDT) 
+13:21:01:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:21:01:debug: [DataService] Saved read for BB019421 
+13:21:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 70 
+13:21:01:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1169) 
+13:21:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 71 
+13:21:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 84 Flags: 547711 
+13:21:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 85 Flags: 547711 
+13:21:01:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:21:13:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:13:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:13:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:21:13 GMT-0400 (EDT) 
+13:21:13:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:21:13:debug: [DataService] Saved read for BB019421 
+13:21:14:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 72 
+13:21:14:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1163) 
+13:21:14:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 86 Flags: 547711 
+13:21:14:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:21:23:info: [CellularConnect] Running Health Check 
+13:21:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:21:23:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3149060 
+13:21:23:info: [DBService] Resuming DB 
+13:21:23:debug: [CellularConnect] Signal: 25 BER: 4 
+13:21:23:debug: [CellularConnect] Socket Status: 1 
+13:21:23:debug: [CellularConnect] Data Transferred : (269/88) 
+13:21:23:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 73 
+13:21:23:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 87 Flags: 547711 
+13:21:29:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:29:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:29:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:21:29 GMT-0400 (EDT) 
+13:21:29:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:21:29:debug: [DataService] Saved read for BB019421 
+13:21:29:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 74 
+13:21:29:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1155) 
+13:21:29:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 88 Flags: 547711 
+13:21:30:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:21:31:info: [CloudConnect] CONNECTING 
+13:21:31:info: [CloudConnect] DISCONNECTED 
+13:21:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:21:31:debug: [AccountabilityBooster] Starting Check: BLEService 
+13:21:31:debug: [AccountabilityBooster] Finished Check: BLEService 
+13:21:31:debug: [AccountabilityBooster] Starting Check: CloudService 
+13:21:31:debug: [AccountabilityBooster] Finished Check: CloudService 
+13:21:31:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+13:21:31:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 26 
+13:21:31:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:21:31:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 68 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:21:31:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:21:31:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:21:31:debug: [UpdateService] Target Version:  
+13:21:31:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+13:21:31:debug: [AccountabilityBooster] Starting Check: DataService 
+13:21:31:debug: [AccountabilityBooster] Finished Check: DataService 
+13:21:31:debug: [AccountabilityBooster] Starting Check: DevicesService 
+13:21:31:debug: [AccountabilityBooster] Finished Check: DevicesService 
+13:21:31:debug: [AccountabilityBooster] Starting Check: InfoService 
+13:21:31:debug: [AccountabilityBooster] Finished Check: InfoService 
+13:21:31:debug: [AccountabilityBooster] Starting Check: UpdateService 
+13:21:31:debug: [AccountabilityBooster] Finished Check: UpdateService 
+13:21:31:debug: [AccountabilityBooster] Starting Check: MCUService 
+13:21:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 75 
+13:21:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 89 Flags: 547711 
+13:21:31:debug: [AccountabilityBooster] Finished Check: MCUService 
+13:21:31:debug: [MCUConnectService] Sending: CMDMessage.FEED_THE_DOG - ID: 76 
+13:21:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 77 
+13:21:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 90 Flags: 547711 
+13:21:33:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 8  ReqID: undefined 
+13:21:33:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:33:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:33:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:21:33 GMT-0400 (EDT) 
+13:21:33:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:21:33:debug: [DataService] Saved read for BB019421 
+13:21:33:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 78 
+13:21:33:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1153) 
+13:21:33:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 91 Flags: 547711 
+13:21:34:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:21:38:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:38:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:38:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:21:38 GMT-0400 (EDT) 
+13:21:38:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:21:38:debug: [DataService] Saved read for BB019421 
+13:21:38:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 79 
+13:21:38:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1150) 
+13:21:38:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 92 Flags: 547711 
+13:21:39:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:21:53:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:53:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:21:53:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:21:53 GMT-0400 (EDT) 
+13:21:53:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:21:53:debug: [DataService] Saved read for BB019421 
+13:21:53:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 80 
+13:21:53:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1143) 
+13:21:53:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 93 Flags: 547711 
+13:21:53:warn: [CellularConnect] Retrying GatewayMessage.INFO - ID: 8  ReqID: undefined 
+13:21:53:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 8  ReqID: undefined 
+13:21:54:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:22:01:info: [CloudConnect] CONNECTING 
+13:22:01:info: [CloudConnect] DISCONNECTED 
+13:22:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:22:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 81 
+13:22:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 94 Flags: 547711 
+13:22:04:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:22:04:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:22:04:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:22:04 GMT-0400 (EDT) 
+13:22:04:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:22:04:debug: [DataService] Saved read for BB019421 
+13:22:04:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 82 
+13:22:04:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1137) 
+13:22:04:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 95 Flags: 547711 
+13:22:05:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:22:13:warn: [CellularConnect] Retrying GatewayMessage.INFO - ID: 8  ReqID: undefined 
+13:22:13:debug: [CellularConnect] TX GatewayMessage.INFO - ID: 8  ReqID: undefined 
+13:22:23:info: [CellularConnect] Running Health Check 
+13:22:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:22:23:debug: [CellularConnect] Signal: 26 BER: 4 
+13:22:23:debug: [CellularConnect] Socket Status: 1 
+13:22:23:debug: [CellularConnect] Data Transferred : (440/88) 
+13:22:25:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:22:25:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:22:25:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:22:25 GMT-0400 (EDT) 
+13:22:25:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:22:25:debug: [DataService] Saved read for BB019421 
+13:22:25:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 83 
+13:22:25:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1127) 
+13:22:25:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 96 Flags: 547711 
+13:22:26:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:22:31:info: [CloudConnect] CONNECTING 
+13:22:31:info: [CloudConnect] DISCONNECTED 
+13:22:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:22:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 84 
+13:22:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 97 Flags: 547711 
+13:22:48:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:22:48:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 89 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:22:48:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:22:48:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:22:48:debug: [UpdateService] Target Version:  
+13:23:01:info: [CloudConnect] CONNECTING 
+13:23:01:info: [CloudConnect] DISCONNECTED 
+13:23:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:23:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 85 
+13:23:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 98 Flags: 547711 
+13:23:06:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 99 Flags: 547711 
+13:23:21:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:21:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:21:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:23:21 GMT-0400 (EDT) 
+13:23:21:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:23:21:debug: [DataService] Saved read for BB019421 
+13:23:21:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 86 
+13:23:21:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1099) 
+13:23:21:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 100 Flags: 547711 
+13:23:22:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:23:23:info: [CellularConnect] Running Health Check 
+13:23:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:23:23:debug: [CellularConnect] Signal: 23 BER: 2 
+13:23:23:debug: [CellularConnect] Socket Status: 1 
+13:23:23:debug: [CellularConnect] Data Transferred : (440/88) 
+13:23:25:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:25:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:25:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:23:25 GMT-0400 (EDT) 
+13:23:25:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:23:25:debug: [DataService] Saved read for BB019421 
+13:23:25:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 87 
+13:23:25:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1097) 
+13:23:25:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 101 Flags: 547711 
+13:23:26:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:23:31:info: [CloudConnect] CONNECTING 
+13:23:31:info: [CloudConnect] DISCONNECTED 
+13:23:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:23:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 88 
+13:23:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 102 Flags: 547711 
+13:23:36:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:36:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:36:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:23:36 GMT-0400 (EDT) 
+13:23:36:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:23:36:debug: [DataService] Saved read for BB019421 
+13:23:36:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 89 
+13:23:36:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1091) 
+13:23:36:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 103 Flags: 547711 
+13:23:37:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:23:43:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:43:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:43:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:23:43 GMT-0400 (EDT) 
+13:23:43:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:23:44:debug: [DataService] Saved read for BB019421 
+13:23:44:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 90 
+13:23:44:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1087) 
+13:23:44:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 104 Flags: 547711 
+13:23:44:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:23:48:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:48:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:48:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:23:48 GMT-0400 (EDT) 
+13:23:48:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:23:48:debug: [DataService] Saved read for BB019421 
+13:23:48:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 91 
+13:23:48:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1085) 
+13:23:48:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 105 Flags: 547711 
+13:23:49:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:23:52:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:52:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:52:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:23:52 GMT-0400 (EDT) 
+13:23:52:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:23:52:debug: [DataService] Saved read for BB019421 
+13:23:52:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 92 
+13:23:52:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1083) 
+13:23:52:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 106 Flags: 547711 
+13:23:53:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:23:57:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:57:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:23:57:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:23:57 GMT-0400 (EDT) 
+13:23:57:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:23:57:debug: [DataService] Saved read for BB019421 
+13:23:57:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 93 
+13:23:57:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1081) 
+13:23:57:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 107 Flags: 547711 
+13:23:57:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:24:01:info: [CloudConnect] CONNECTING 
+13:24:01:info: [CloudConnect] DISCONNECTED 
+13:24:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:24:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 94 
+13:24:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 108 Flags: 547711 
+13:24:07:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:07:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:07:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:24:07 GMT-0400 (EDT) 
+13:24:07:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:24:07:debug: [DataService] Saved read for BB019421 
+13:24:07:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 95 
+13:24:07:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1076) 
+13:24:07:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 109 Flags: 547711 
+13:24:08:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:24:11:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:11:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:11:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:24:11 GMT-0400 (EDT) 
+13:24:11:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:24:11:debug: [DataService] Saved read for BB019421 
+13:24:11:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 96 
+13:24:11:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1074) 
+13:24:11:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 110 Flags: 547711 
+13:24:12:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:24:16:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:16:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:16:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:24:16 GMT-0400 (EDT) 
+13:24:16:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:24:16:debug: [DataService] Saved read for BB019421 
+13:24:16:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 97 
+13:24:16:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1071) 
+13:24:16:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 111 Flags: 547711 
+13:24:16:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:24:20:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:20:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:20:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:24:20 GMT-0400 (EDT) 
+13:24:20:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:24:20:debug: [DataService] Saved read for BB019421 
+13:24:20:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 98 
+13:24:20:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1069) 
+13:24:20:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 112 Flags: 547711 
+13:24:21:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:24:23:info: [CellularConnect] Running Health Check 
+13:24:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:24:23:debug: [CellularConnect] Signal: 24 BER: 4 
+13:24:23:debug: [CellularConnect] Socket Status: 1 
+13:24:23:debug: [CellularConnect] Data Transferred : (440/88) 
+13:24:25:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:25:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:25:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:24:25 GMT-0400 (EDT) 
+13:24:25:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:24:25:debug: [DataService] Saved read for BB019421 
+13:24:25:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 99 
+13:24:25:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1067) 
+13:24:25:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 113 Flags: 547711 
+13:24:25:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:24:31:info: [CloudConnect] CONNECTING 
+13:24:31:info: [CloudConnect] DISCONNECTED 
+13:24:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:24:31:debug: [AccountabilityBooster] Starting Check: BLEService 
+13:24:31:debug: [AccountabilityBooster] Finished Check: BLEService 
+13:24:31:debug: [AccountabilityBooster] Starting Check: CloudService 
+13:24:31:debug: [AccountabilityBooster] Finished Check: CloudService 
+13:24:31:debug: [AccountabilityBooster] Starting Check: CoordinatorService 
+13:24:31:debug: [CoordinatorConnect] TX -> CoordinatorInfoMessageType.INFO_REQUEST - ID: 44 
+13:24:31:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:24:31:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_RESPONSE - ID: 138 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:24:31:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:24:31:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:24:31:debug: [UpdateService] Target Version:  
+13:24:31:debug: [AccountabilityBooster] Finished Check: CoordinatorService 
+13:24:31:debug: [AccountabilityBooster] Starting Check: DataService 
+13:24:31:debug: [AccountabilityBooster] Finished Check: DataService 
+13:24:31:debug: [AccountabilityBooster] Starting Check: DevicesService 
+13:24:31:debug: [AccountabilityBooster] Finished Check: DevicesService 
+13:24:31:debug: [AccountabilityBooster] Starting Check: InfoService 
+13:24:31:debug: [AccountabilityBooster] Finished Check: InfoService 
+13:24:31:debug: [AccountabilityBooster] Starting Check: UpdateService 
+13:24:31:debug: [AccountabilityBooster] Finished Check: UpdateService 
+13:24:31:debug: [AccountabilityBooster] Starting Check: MCUService 
+13:24:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 100 
+13:24:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 114 Flags: 547711 
+13:24:31:debug: [AccountabilityBooster] Finished Check: MCUService 
+13:24:31:debug: [MCUConnectService] Sending: CMDMessage.FEED_THE_DOG - ID: 101 
+13:24:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 102 
+13:24:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 115 Flags: 547711 
+13:24:33:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:33:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:33:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:24:33 GMT-0400 (EDT) 
+13:24:33:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:24:33:debug: [DataService] Saved read for BB019421 
+13:24:33:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 103 
+13:24:33:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1063) 
+13:24:33:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 116 Flags: 547711 
+13:24:34:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:24:37:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:37:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:37:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:24:37 GMT-0400 (EDT) 
+13:24:37:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:24:37:debug: [DataService] Saved read for BB019421 
+13:24:37:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 104 
+13:24:37:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1061) 
+13:24:37:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 117 Flags: 547711 
+13:24:38:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:24:51:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:24:51:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 147 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:24:51:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:24:51:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:24:51:debug: [UpdateService] Target Version:  
+13:24:58:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:58:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:24:58:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:24:58 GMT-0400 (EDT) 
+13:24:58:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:24:58:debug: [DataService] Saved read for BB019421 
+13:24:58:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 105 
+13:24:58:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1050) 
+13:24:58:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 118 Flags: 547711 
+13:24:58:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:25:01:info: [CloudConnect] CONNECTING 
+13:25:01:info: [CloudConnect] DISCONNECTED 
+13:25:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:25:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 106 
+13:25:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 119 Flags: 547711 
+13:25:15:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:15:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:15:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:25:15 GMT-0400 (EDT) 
+13:25:15:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:25:15:debug: [DataService] Saved read for BB019421 
+13:25:15:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 107 
+13:25:15:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1042) 
+13:25:15:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 120 Flags: 547711 
+13:25:16:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:25:19:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:19:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:19:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:25:19 GMT-0400 (EDT) 
+13:25:19:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:25:19:debug: [DataService] Saved read for BB019421 
+13:25:19:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 108 
+13:25:19:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1040) 
+13:25:19:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 121 Flags: 547711 
+13:25:19:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:25:22:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:22:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:22:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:25:22 GMT-0400 (EDT) 
+13:25:22:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:25:22:debug: [DataService] Saved read for BB019421 
+13:25:22:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 109 
+13:25:22:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1038) 
+13:25:22:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 122 Flags: 547711 
+13:25:22:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:25:23:info: [CellularConnect] Running Health Check 
+13:25:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:25:23:debug: [CellularConnect] Signal: 26 BER: 4 
+13:25:23:debug: [CellularConnect] Socket Status: 1 
+13:25:23:debug: [CellularConnect] Data Transferred : (440/88) 
+13:25:25:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:25:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:25:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:25:25 GMT-0400 (EDT) 
+13:25:25:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:25:25:debug: [DataService] Saved read for BB019421 
+13:25:25:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 110 
+13:25:25:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1037) 
+13:25:25:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 123 Flags: 547711 
+13:25:26:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:25:29:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:29:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:29:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:25:29 GMT-0400 (EDT) 
+13:25:29:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:25:29:debug: [DataService] Saved read for BB019421 
+13:25:29:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 111 
+13:25:29:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1035) 
+13:25:29:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 124 Flags: 547711 
+13:25:30:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:25:31:info: [CloudConnect] CONNECTING 
+13:25:31:info: [CloudConnect] DISCONNECTED 
+13:25:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:25:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 112 
+13:25:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 125 Flags: 547711 
+13:25:33:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:33:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:33:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:25:33 GMT-0400 (EDT) 
+13:25:33:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:25:33:debug: [DataService] Saved read for BB019421 
+13:25:33:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 113 
+13:25:33:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1033) 
+13:25:33:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 126 Flags: 547711 
+13:25:34:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:25:37:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:37:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:37:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:25:37 GMT-0400 (EDT) 
+13:25:37:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:25:37:debug: [DataService] Saved read for BB019421 
+13:25:37:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 114 
+13:25:37:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1031) 
+13:25:37:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 127 Flags: 547711 
+13:25:38:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:25:41:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:41:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:41:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:25:41 GMT-0400 (EDT) 
+13:25:41:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:25:41:debug: [DataService] Saved read for BB019421 
+13:25:41:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 115 
+13:25:41:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1029) 
+13:25:41:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 128 Flags: 547711 
+13:25:42:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:25:48:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:48:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:48:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:25:48 GMT-0400 (EDT) 
+13:25:48:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:25:48:debug: [DataService] Saved read for BB019421 
+13:25:48:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 116 
+13:25:48:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1025) 
+13:25:48:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 129 Flags: 547711 
+13:25:49:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:25:53:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:53:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:53:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:25:53 GMT-0400 (EDT) 
+13:25:53:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:25:53:debug: [DataService] Saved read for BB019421 
+13:25:53:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 117 
+13:25:53:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1023) 
+13:25:53:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 130 Flags: 547711 
+13:25:54:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:25:57:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:57:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:25:57:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:25:57 GMT-0400 (EDT) 
+13:25:57:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:25:57:debug: [DataService] Saved read for BB019421 
+13:25:57:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 118 
+13:25:57:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1021) 
+13:25:57:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 131 Flags: 547711 
+13:25:58:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:26:01:info: [CloudConnect] CONNECTING 
+13:26:01:info: [CloudConnect] DISCONNECTED 
+13:26:01:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:26:01:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 119 
+13:26:01:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 132 Flags: 547711 
+13:26:05:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:26:05:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:26:05:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:26:05 GMT-0400 (EDT) 
+13:26:05:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:26:05:debug: [DataService] Saved read for BB019421 
+13:26:05:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 120 
+13:26:05:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1017) 
+13:26:05:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 133 Flags: 547711 
+13:26:05:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_BUSY 0xDA102382 -> 0xFFFFFFFF 
+13:26:05:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:26:08:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:26:08:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:26:08:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:26:08 GMT-0400 (EDT) 
+13:26:08:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:26:08:debug: [DataService] Saved read for BB019421 
+13:26:08:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 121 
+13:26:08:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1015) 
+13:26:08:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 134 Flags: 547711 
+13:26:09:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:26:12:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:26:12:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:26:12:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:26:12 GMT-0400 (EDT) 
+13:26:12:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:26:12:debug: [DataService] Saved read for BB019421 
+13:26:12:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 122 
+13:26:12:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1013) 
+13:26:12:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 135 Flags: 547711 
+13:26:12:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_BUSY 0xDA102382 -> 0xFFFFFFFF 
+13:26:13:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:26:16:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:26:16:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:26:16:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:26:16 GMT-0400 (EDT) 
+13:26:16:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:26:16:debug: [DataService] Saved read for BB019421 
+13:26:16:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 123 
+13:26:16:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1011) 
+13:26:16:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 136 Flags: 547711 
+13:26:17:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:26:20:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:26:20:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_RX_MSG 0xBB019421 -> 0xFFFFFFFF 
+13:26:20:debug: [CoordinatorService] Created Read for BB019421 - 0 Tue Apr 19 2022 13:26:20 GMT-0400 (EDT) 
+13:26:20:debug: [CoordinatorConnect] RX <- EndDeviceMessage.USER_EVENT BB019421 
+13:26:20:debug: [DataService] Saved read for BB019421 
+13:26:20:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 124 
+13:26:20:debug: [CoordinatorConnect] TX -> InfoMessage.GATEWAY_MSG BB019421 (checkInInterval: 1800 nextCheckIn: 1009) 
+13:26:20:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 137 Flags: 547711 
+13:26:20:debug: [CoordinatorConnect] DebugMessage.CONNECT_DEBUG_TX_MSG 0xDA102382 -> 0xFFFFFFFF 
+13:26:23:info: [CellularConnect] Running Health Check 
+13:26:23:debug: [CellularConnect] Network Activated: true  Registration: 5 Operator: 1 
+13:26:23:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3148036 
+13:26:23:info: [DBService] Resuming DB 
+13:26:23:debug: [CellularConnect] Signal: 25 BER: 5 
+13:26:23:debug: [CellularConnect] Found connection closed. Trying to open connection now 
+13:26:23:info: [CellularConnect] CONNECTING 
+13:26:23:info: [CloudService] Heartbeats Stopped 
+13:26:23:info: [CloudService] Sync Timer Stopped 
+13:26:23:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 3147780 
+13:26:23:info: [DBService] Resuming DB 
+13:26:23:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2099204 
+13:26:23:info: [DBService] Resuming DB 
+13:26:23:debug: [CellularConnect] AT#SD=1,0,44444,"52.20.178.43" 
+13:26:23:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 125 
+13:26:23:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 138 Flags: 547711 
+13:26:31:info: [CloudConnect] CONNECTING 
+13:26:31:info: [CloudConnect] DISCONNECTED 
+13:26:31:error: [CloudConnect] Error: connect ENETUNREACH 52.20.178.43:44444 - Local (0.0.0.0:0) 
+13:26:31:debug: [MCUConnectService] Sending: CMDMessage.PING - ID: 126 
+13:26:31:debug: [MCUConnectService] Received: InfoMessage.PONG - ID: 139 Flags: 547711 
+13:26:38:error: [CellularConnect] Error trying to open data connection 
+13:26:38:debug: [CellularConnect] Socket Status: 0 
+13:26:38:debug: [CellularConnect] Data Transferred : (0/0) 
+13:26:56:debug: [CoordinatorService] Coordinator Message: firmware v14.2 hardware v3.1 
+13:26:56:debug: [CoordinatorConnect] RX <- CoordinatorDeviceMessageType.DEVICE_CHECK_IN - ID: 218 SerialNumber: DA102382 Firmware:14.2 Hardware:3.1 Bootloader:2 
+13:26:56:debug: [UpdateService] Checking for available Coordinator Firmware Update 
+13:26:56:debug: [UpdateService] Checking for available Firmware Update (current version: 14.2) 
+13:26:56:debug: [UpdateService] Target Version:  
+13:26:57:info: [App] Power State Changed: POWER OFF 
+13:26:57:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_flags$ = 2164740 
+13:26:57:info: [NonvolatileDataService] ----------------------- Saving: /home/root/db/info/_restartCode = 1 
+13:26:57:debug: [MCUConnectService] Received: InfoMessage.HEY_BROTHER - ID: 140 Flags: 547455 
+13:26:57:info: [FsHelper] Starting Sync of File System 
